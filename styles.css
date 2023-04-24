@@ -28,12 +28,12 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: rgb(170, 19, 19);
 }
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: #0b329c;
+  background-color: #0b9c71;
 }
 
 main {
