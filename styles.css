@@ -40,6 +40,10 @@ nav a[aria-current='page'] {
 
 main {
   padding: 1rem;
+  background-image: url("./logo.png");
+  background-repeat:no-repeat;
+  background-size: 80%;
+  background-position: center;
 }
 
 h1 {
@@ -51,7 +55,7 @@ h1 {
      }
 
 .parent {
-    
+  
       margin: 1rem;
       padding: 2rem 2rem;
       text-align: center;
