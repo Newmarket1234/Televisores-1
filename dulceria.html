@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body >
+     
+    <main id="panaderia"> 
+      <div class="header" >
+        <h1 class="titulos" style="color:white">GALERIA HYPERMARKET</h1>
+        <div class="titulos"  style="color:white">Dulces</div>
+      </div>
+     <section class="listas">
+      <div class="listaProductos">
+        <div class="producto">
+          <div class="nombreProducto" onload="my_function(this)">Polvorosas</div>
+          <div class="precioProducto">0.25 Ref</div>
+        </div>
+
+        <div class="producto">
+          <div class="nombreProducto">Torta de Chocolate</div>
+          <div class="precioProducto">0.25 Ref</div>
+        </div>
+
+        <div class="producto">
+          <div class="nombreProducto">Torta Tres Leches</div>
+          <div class="precioProducto">45,00 Ref</div>
+        </div>
+
+        <div class="producto">
+          <div class="nombreProducto">Bomba de Crema</div>
+          <div class="precioProducto">0.25 Ref</div>
+        </div>
+
+        <div class="producto">
+          <div class="nombreProducto">Dona de Crema</div>
+          <div class="precioProducto">0.25 Ref</div>
+        </div>
+
+        <div class="producto">
+          <div class="nombreProducto">Brazo Gitano 
+          </div>
+          <div class="precioProducto">80,25 Ref</div>
+        </div>
+
+      </div>
+
+
+     </section>
+      
+     
+      
+    </main>
+  </body>
+
+  <script>
+    function trim(element){
+ var text=element.textContent;
+alert("hola");
+var length = 18;
+var trimmedString = text.length > length ? 
+                    text.substring(0, length - 3) + "..." : 
+                    text;
+element.textContent = trimmedString;
+}
+
+
+    </script>
+</html>
