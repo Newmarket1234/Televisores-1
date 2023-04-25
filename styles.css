@@ -13,7 +13,7 @@ body {
   
 }
 .header{
-  
+  display: none;
 }
 
 nav {
@@ -151,10 +151,11 @@ h1 {
 }
 
 .listas{
-  margin-top: 40px;
+  
 }
 
 .listaProductos{
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,7 +175,7 @@ h1 {
   color: white;
 }
 .nombreProducto{
-  font-family: "Lucida Handwriting";
+  
   display: block;
   text-align: left;
 }
