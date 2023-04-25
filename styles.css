@@ -39,11 +39,13 @@ nav a[aria-current='page'] {
 }
 
 main {
-  padding: 1rem;
+  padding-right: 40px;
   background-image: url("./logo.png");
   background-repeat:no-repeat;
   background-size: 80%;
-  background-position: center;
+  background-position:auto;
+  height: 100vh;
+  
 }
 .header{
   text-align: center;
