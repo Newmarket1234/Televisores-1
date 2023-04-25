@@ -1,0 +1,49 @@
+{
+  "data": {
+    "Panes": [
+   {
+     "descripcion": "Pan Canilla",
+     "precio": "0.25 Ref"
+   },
+   {
+    "descripcion": "Pan Sobado",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan de Azucar",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan Dulce",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan Natural",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan de Sandwich",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan Frances",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan Americano",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan de Afrecho",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan de Azucar",
+    "precio": "0.25 Ref"
+  },
+  {
+    "descripcion": "Pan Artesanal",
+    "precio": "0.25 Ref"
+  }
+ ]
+ }}
