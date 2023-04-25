@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -45,7 +47,7 @@ main.container {
   background-size: 80%;
   background-position: 40% 50%;
   height: 100vh;
-  
+  margin: 0;
 }
 main#panaderia{
   background-image: url("./carniceria.jpg");
@@ -105,3 +107,40 @@ h1 {
 #right-child{
   margin-left: 10.5em;
 }
+
+.listas{
+  margin-top: 40px;
+}
+
+.listaProductos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.producto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 55%;
+  color: white;
+}
+.nombreProducto{
+  font-family: "Lucida Handwriting";
+  display: block;
+  text-align: left;
+}
+
+.precioProducto{
+  
+  padding: 15px;
+  background-color: black;
+  border-radius: 50px;
+}
+
