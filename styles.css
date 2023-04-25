@@ -38,7 +38,7 @@ nav a[aria-current='page'] {
   background-color: #0b9c71;
 }
 
-main {
+main.container {
   padding-right: 40px;
   background-image: url("./logo.png");
   background-repeat:no-repeat;
@@ -46,6 +46,12 @@ main {
   background-position: 40% 50%;
   height: 100vh;
   
+}
+main#panaderia{
+  background-image: url("./carniceria.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% ;
 }
 .header{
   text-align: center;
