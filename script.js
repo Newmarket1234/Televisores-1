@@ -7,3 +7,7 @@ var trimmedString = text.length > length ?
                     text;
 element.textContent = trimmedString;
 }
+
+function loadImage(){
+  alert("hola");
+}

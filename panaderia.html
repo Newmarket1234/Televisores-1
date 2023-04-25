@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </head>
-  <body>
+  <body  >
    
     <main id="panaderia"> 
       <div class="header" >
@@ -46,7 +46,7 @@
 
         <div class="producto">
           <div class="nombreProducto">Pan de Jamon 
-            <p class="linea" onload="my_function(this)">montserratina de apio 4 kilos </p>
+            <p class="linea" onload="trim(this)" >montserratina de apio 4 kilos </p>
           </div>
           <div class="precioProducto">80,25 Ref</div>
         </div>
@@ -60,4 +60,18 @@
       
     </main>
   </body>
+
+  <script>
+    function trim(element){
+ var text=element.textContent;
+alert("hola");
+var length = 18;
+var trimmedString = text.length > length ? 
+                    text.substring(0, length - 3) + "..." : 
+                    text;
+element.textContent = trimmedString;
+}
+
+
+    </script>
 </html>
