@@ -12,6 +12,9 @@ body {
   background-color: white;
   
 }
+.header{
+  
+}
 
 nav {
   display: flex;
@@ -88,7 +91,12 @@ main#gourmet{
   height: 100vh;
   background-size: 100% 100%;
 }
-
+main#pollo{
+  background-image: url("./pollo2.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
 .header{
   text-align: center;
 }
@@ -176,5 +184,41 @@ h1 {
   padding: 15px;
   background-color: black;
   border-radius: 50px;
+}
+
+
+.embutidos{
+
+}
+.quesos{
+
+}
+
+.pastas{
+
+}
+.sopas{
+
+}
+.pollera{
+
+}
+.panaderia{
+
+}
+
+.dulceria{
+
+}
+
+.carniceria{
+
+}
+.pollo{
+
+}
+
+.cerdo{
+
 }
 
