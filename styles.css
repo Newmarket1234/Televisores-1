@@ -43,7 +43,7 @@ main {
   background-image: url("./logo.png");
   background-repeat:no-repeat;
   background-size: 80%;
-  background-position:auto;
+  background-position: 40% 50%;
   height: 100vh;
   
 }
