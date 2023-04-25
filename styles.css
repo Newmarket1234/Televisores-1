@@ -63,6 +63,12 @@ main#carniceria{
   height: 100vh;
   background-size: 100% 100%;
 }
+main#charcuteria{
+  background-image: url("./charcuteria.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
 
 .header{
   text-align: center;
