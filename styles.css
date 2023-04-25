@@ -50,10 +50,10 @@ main.container {
   margin: 0;
 }
 main#panaderia{
-  background-image: url("./carniceria.jpg");
+  background-image: url("./panaderia.jpg");
   background-repeat: no-repeat;
   height: 100vh;
-  background-size: 100%;
+  background-size: 100% 100%;
   
 }
 
