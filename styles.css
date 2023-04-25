@@ -70,6 +70,14 @@ main#charcuteria{
   background-size: 100% 100%;
 }
 
+main#pollera{
+  background-image: url("./pollo.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+
 .header{
   text-align: center;
 }
