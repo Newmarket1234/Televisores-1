@@ -8,6 +8,16 @@ var trimmedString = text.length > length ?
 element.textContent = trimmedString;
 }
 
-function loadImage(){
-  alert("hola");
+function reducirTamano(){
+  for (const a of document.querySelectorAll(".linea")) {
+    
+    var text=a.textContent;
+    var length = 18;
+    var trimmedString = text.length > length ? 
+                    text.substring(0, 21) + "..." : 
+                    text;
+     a.textContent = trimmedString;
+
+  }
 }
+
