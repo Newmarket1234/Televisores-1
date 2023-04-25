@@ -52,6 +52,12 @@ main.container {
   height: 100vh;
   margin: 0;
 }
+
+main{
+  align-items: center;
+  justify-content: center;
+}
+
 main#panaderia{
   background-image: url("./panaderia.jpg");
   background-repeat: no-repeat;
@@ -171,7 +177,7 @@ h1 {
   font-size: 35px;
   margin-bottom: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  width: 55%;
+  width: 80%;
   color: white;
 }
 .nombreProducto{
