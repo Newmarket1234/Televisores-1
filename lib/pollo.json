@@ -1,0 +1,37 @@
+{
+  "data": {
+    "pollo": [
+   {
+     "descripcion": "POLLO ENTERO CONGELADO",
+     "precio": "2.49 Ref"
+   },
+   {
+    "descripcion": "PECHUGA DE POLLO",
+    "precio": "3.58 Ref"
+   },
+   {
+    "descripcion": "MUSLO DE POLLO",
+    "precio": "2.80 Ref"
+   },
+   {
+    "descripcion": "PATAS DE POLLO",
+    "precio": "2.61 Ref"
+  },
+  {
+    "descripcion": "HIGADO DE POLLO",
+    "precio": "1.81 Ref"
+  },
+  {
+    "descripcion": "FILET DE POLLO",
+    "precio": "4.18 Ref"
+  },
+  {
+    "descripcion": "CARAPACHO DE POLLO",
+    "precio": "1.10 Ref"
+  },
+  {
+    "descripcion": "ALAS DE POLLO",
+    "precio": "2.78 Ref"
+  }
+ ]
+ }}
