@@ -97,6 +97,12 @@ main#gourmet{
   height: 100vh;
   background-size: 100% 100%;
 }
+main#pasteles{
+  background-image: url("./pasteles.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
 main#pollo{
   background-image: url("./polloCarniceria.png");
   background-repeat: no-repeat;
