@@ -1,0 +1,45 @@
+{
+  "data": {
+    "carniceria": [
+   {
+     "descripcion": "CARNE DE PRIMERA KG",
+     "precio": "4.99 Ref"
+   },
+   {
+    "descripcion": "CARNE MOLIDA PREMIUM",
+    "precio": "4.39 Ref"
+   },
+   {
+    "descripcion": "COSTILLA DE RES",
+    "precio": "3.70 Ref"
+   },
+   {
+    "descripcion": "LAGARTO CON HUESO",
+    "precio": "3.70 Ref"
+  },
+  {
+    "descripcion": "LOMITO",
+    "precio": "6.50 Ref"
+  },
+  {
+    "descripcion": "PUNTA TRASERA",
+    "precio": "4.00 Ref"
+  },
+  {
+    "descripcion": "SOLOMO CUERITO",
+    "precio": "5.90 Ref"
+  },
+  {
+    "descripcion": "BISTECK DE RES",
+    "precio": "4.39 Ref"
+  },
+  {
+    "descripcion": "CARNE PARA GUISAR",
+    "precio": "4.39 Ref"
+  },
+  {
+    "descripcion": "CARNE PARA MECHAR",
+    "precio": "4.39 Ref"
+  }
+ ]
+ }}
