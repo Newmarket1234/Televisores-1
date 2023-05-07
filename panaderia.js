@@ -19,7 +19,7 @@ function cargarData(){
     if(response.ok) {
       response.json().then(function(response) {
         
-        let data=response.data.Panes.slice(0,4);
+        let data=response.data.Panes.slice(0,6);
          
         for (const productos of data) {
           let text2="<div class='producto'><div class='nombreProducto+'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
@@ -44,7 +44,7 @@ setInterval(function(){
     if(response.ok) {
       response.json().then(function(response) {
         
-        let data=response.data.Panes.slice(contador,contador+4);
+        let data=response.data.Panes.slice(contador,contador+6);
          
         for (const productos of data) {
           let text2="<div class='producto'><div class='nombreProducto+'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"

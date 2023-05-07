@@ -26,24 +26,28 @@
     "precio": "1.20 Ref"
   },
   {
-    "descripcion": "Pan Frances",
-    "precio": "0.25 Ref"
+    "descripcion": "PAN DE SANDWICH GRANDE",
+    "precio": "1.90 Ref"
   },
   {
-    "descripcion": "Pan Americano",
-    "precio": "0.25 Ref"
+    "descripcion": "PAN ARABE GRAN ORIENTE",
+    "precio": "1.43 Ref"
   },
   {
-    "descripcion": "Pan de Afrecho",
-    "precio": "0.25 Ref"
+    "descripcion": "CAFE PEQUEÑO",
+    "precio": "0.43 Ref"
   },
   {
-    "descripcion": "Pan de Azucar",
-    "precio": "0.25 Ref"
+    "descripcion": "CAFE GRANDE",
+    "precio": "0.69 Ref"
   },
   {
-    "descripcion": "Pan Artesanal",
-    "precio": "0.25 Ref"
+    "descripcion": "CAFE CON LECHE PEQUEÑO",
+    "precio": "0.69 Ref"
+  },
+  {
+    "descripcion": "CAFE CON LECHE GRANDE",
+    "precio": "1.12 Ref"
   }
  ]
  }}
