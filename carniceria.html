@@ -14,40 +14,7 @@
     </div>
    <section class="listas">
     <div class="listaProductos">
-      <div class="producto">
-        <div class="nombreProducto">Carne de Primera</div>
-        <div class="precioProducto">0.25 Ref</div>
-      </div>
-
-      <div class="producto">
-        <div class="nombreProducto">Pollo de Res</div>
-        <div class="precioProducto">0.25 Ref</div>
-      </div>
-
-      <div class="producto">
-        <div class="nombreProducto">Muchacho Cuandrado</div>
-        <div class="precioProducto">45,00 Ref</div>
-      </div>
-
-      <div class="producto">
-        <div class="nombreProducto">Muchacho Redondo</div>
-        <div class="precioProducto">0.25 Ref</div>
-      </div>
-
-      <div class="producto">
-        <div class="nombreProducto">
-
-          Chuleta de Res montserratina de apio 
-        <p> </p></div>
-        <div class="precioProducto">0.25 Ref</div>
-      </div>
-
-      <div class="producto">
-        <div class="nombreProducto">Rabo de Res montserratina de apio 
-          <p class="linea" onload="trim(this)" > </p>
-        </div>
-        <div class="precioProducto">80,25 Ref</div>
-      </div>
+     
 
     </div>
 
@@ -58,4 +25,75 @@
     
   </main>
 </body>
+<script>
+  var contador=4;
+function reducirTamano(){
+ for (const a of document.querySelectorAll(".linea")) {
+   
+   var text=a.textContent;
+   var length = 18;
+   var trimmedString = text.length > length ? 
+                   text.substring(0, 21) + "..." : 
+                   text;
+    a.textContent = trimmedString;
+
+ }
+}
+
+function cargarData(){
+
+ fetch('./lib/carniceria.json').then(function(response) {
+   let text="";
+   if(response.ok) {
+     response.json().then(function(response) {
+       
+       let data=response.data.carniceria.slice(0,6);
+        
+       for (const productos of data) {
+         let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+         text+=text2;
+       }
+       document.querySelector(".listaProductos").innerHTML=text;
+       
+     });
+   } else {
+     console.log('Respuesta de red OK pero respuesta HTTP no OK');
+   }
+ })
+ .catch(function(error) {
+   console.log('Hubo un problema con la petición Fetch:' + error.message);
+ });
+}
+
+setInterval(function(){
+ let text="";
+ document.querySelector(".listaProductos").innerHTML="";
+ fetch('./lib/carniceria.json').then(function(response) {
+   if(response.ok) {
+     response.json().then(function(response) {
+       
+       let data=response.data.carniceria.slice(contador,contador+6);
+        
+       for (const productos of data) {
+         let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+         text+=text2;
+       }
+       document.querySelector(".listaProductos").innerHTML=text;
+       if(contador>=response.data.carniceria.length-5){
+         contador=0;
+         }else{
+         contador=contador+4;
+         }
+     });
+   } else {
+     console.log('Respuesta de red OK pero respuesta HTTP no OK');
+   }
+ })
+ .catch(function(error) {
+   console.log('Hubo un problema con la petición Fetch:' + error.message);
+ });
+}
+ , 60000);
+
+   </script>
 </html>
