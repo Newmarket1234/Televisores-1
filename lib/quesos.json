@@ -1,0 +1,43 @@
+{
+  "data": {
+    "quesos": [
+   {
+     "descripcion": "QUESO DURO",
+     "precio": "6.64 Ref"
+   },
+   {
+    "descripcion": "QUESO GUAYANES",
+    "precio": "5.22 Ref"
+  },
+  {
+    "descripcion": "QUESO MOZARELLA MASTER CHEESE KG",
+    "precio": "15.22 Ref"
+  },
+  {
+    "descripcion": "QUESO AMARILLO LUCERO KG",
+    "precio": "12.92 Ref"
+  },
+  {
+    "descripcion": "QUESO MUNSTER LUCERO UND",
+    "precio": "15.41 Ref"
+  },
+  {
+    "descripcion": "QUESO PARMESANO QUENACA",
+    "precio": "34.70 Ref"
+  },
+  
+  {
+    "descripcion": "QUESO AMARILLO TIPO GOUDA DEL CASTILLO",
+    "precio": "19.30 Ref"
+  },
+  {
+    "descripcion": "QUESO CREMA PAISA 200GR",
+    "precio": "3.49 Ref"
+  },
+  {
+    "descripcion": "QUESO BLANCO DE BUFALA PACOMELA",
+    "precio": "14.00 Ref"
+  }
+  
+ ]
+ }}
