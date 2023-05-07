@@ -22,7 +22,7 @@ function cargarData(){
         let data=response.data.Panes.slice(0,6);
          
         for (const productos of data) {
-          let text2="<div class='producto'><div class='nombreProducto+'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+          let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
           text+=text2;
         }
         document.querySelector(".listaProductos").innerHTML=text;
@@ -47,7 +47,7 @@ setInterval(function(){
         let data=response.data.Panes.slice(contador,contador+6);
          
         for (const productos of data) {
-          let text2="<div class='producto'><div class='nombreProducto+'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+          let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
           text+=text2;
         }
         document.querySelector(".listaProductos").innerHTML=text;
@@ -65,4 +65,4 @@ setInterval(function(){
     console.log('Hubo un problema con la petición Fetch:' + error.message);
   });
 }
-  , 5000);
+  , 60000);
