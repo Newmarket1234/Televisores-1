@@ -2,35 +2,35 @@
   "data": {
     "pollo": [
    {
-     "descripcion": "POLLO ENTERO CONGELADO",
+     "descripcion": "POLLO ENTERO CONGELADO KG",
      "precio": "2.49 Ref"
    },
    {
-    "descripcion": "PECHUGA DE POLLO",
+    "descripcion": "PECHUGA DE POLLO KG",
     "precio": "3.58 Ref"
    },
    {
-    "descripcion": "MUSLO DE POLLO",
+    "descripcion": "MUSLO DE POLLO KG",
     "precio": "2.80 Ref"
    },
    {
-    "descripcion": "PATAS DE POLLO",
+    "descripcion": "PATAS DE POLLO KG",
     "precio": "2.61 Ref"
   },
   {
-    "descripcion": "HIGADO DE POLLO",
+    "descripcion": "HIGADO DE POLLO KG",
     "precio": "1.81 Ref"
   },
   {
-    "descripcion": "FILET DE POLLO",
+    "descripcion": "FILET DE POLLO KG",
     "precio": "4.18 Ref"
   },
   {
-    "descripcion": "CARAPACHO DE POLLO",
+    "descripcion": "CARAPACHO DE POLLO KG",
     "precio": "1.10 Ref"
   },
   {
-    "descripcion": "ALAS DE POLLO",
+    "descripcion": "ALAS DE POLLO KG",
     "precio": "2.78 Ref"
   }
  ]

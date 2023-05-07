@@ -6,39 +6,39 @@
      "precio": "4.99 Ref"
    },
    {
-    "descripcion": "CARNE MOLIDA PREMIUM",
+    "descripcion": "CARNE MOLIDA PREMIUM KG",
     "precio": "4.39 Ref"
    },
    {
-    "descripcion": "COSTILLA DE RES",
+    "descripcion": "COSTILLA DE RES KG",
     "precio": "3.70 Ref"
    },
    {
-    "descripcion": "LAGARTO CON HUESO",
+    "descripcion": "LAGARTO CON HUESO KG",
     "precio": "3.70 Ref"
   },
   {
-    "descripcion": "LOMITO",
+    "descripcion": "LOMITO KG",
     "precio": "6.50 Ref"
   },
   {
-    "descripcion": "PUNTA TRASERA",
+    "descripcion": "PUNTA TRASERA KG",
     "precio": "4.00 Ref"
   },
   {
-    "descripcion": "SOLOMO CUERITO",
+    "descripcion": "SOLOMO CUERITO KG",
     "precio": "5.90 Ref"
   },
   {
-    "descripcion": "BISTECK DE RES",
+    "descripcion": "BISTECK DE RES KG",
     "precio": "4.39 Ref"
   },
   {
-    "descripcion": "CARNE PARA GUISAR",
+    "descripcion": "CARNE PARA GUISAR KG",
     "precio": "4.39 Ref"
   },
   {
-    "descripcion": "CARNE PARA MECHAR",
+    "descripcion": "CARNE PARA MECHAR KG",
     "precio": "4.39 Ref"
   }
  ]
