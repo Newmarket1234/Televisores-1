@@ -68,6 +68,7 @@
  
  setInterval(function(){
    let text="";
+   
    document.querySelector(".listaProductos").innerHTML="";
    fetch('./lib/pollo.json').then(function(response) {
      if(response.ok) {
@@ -76,7 +77,7 @@
          let data=response.data.pollo.slice(contador,contador+6);
           
          for (const productos of data) {
-           let text2="<div class='producto' style='margin-'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+           let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
            text+=text2;
          }
          document.querySelector(".listaProductos").innerHTML=text;
@@ -94,7 +95,7 @@
      console.log('Hubo un problema con la petición Fetch:' + error.message);
    });
  }
-   , 60000);
+   , 6000);
  
      </script>
 </html>
