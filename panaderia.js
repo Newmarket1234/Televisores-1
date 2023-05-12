@@ -39,11 +39,11 @@ function cargarData(){
 
 setInterval(function(){
   let text="";
-  document.querySelector(".listaProductos").innerHTML="";
+ 
   fetch('./lib/panaderia.json').then(function(response) {
     if(response.ok) {
       response.json().then(function(response) {
-        
+        document.querySelector(".listaProductos").innerHTML="";
         let data=response.data.Panes.slice(contador,contador+6);
          
         for (const productos of data) {

@@ -69,11 +69,11 @@
  }
  setInterval(function(){
    let text="";
-   document.querySelector(".listaProductos").innerHTML="";
+   
    fetch('./lib/menu.json').then(function(response) {
      if(response.ok) {
        response.json().then(function(response) {
-         
+        document.querySelector(".listaProductos").innerHTML="";
          let data=response.data.Menu.slice(contador,contador+6);
           
          for (const productos of data) {
