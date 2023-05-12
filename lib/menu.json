@@ -36,6 +36,11 @@
   {
     "descripcion": "SANDWICH JAMON Y QUESO",
     "precio": "4.00 Ref"
+  },
+  ,
+  {
+    "descripcion": "AREPA CON POLLO",
+    "precio": "3.50 Ref"
   }
  ]
  }}
