@@ -3,7 +3,7 @@
     "dulces": [
    {
      "descripcion": "PAN FRUTAS CONFITADAS UND",
-     "precio": "1.00 Ref"
+     "precio": "0.99 Ref"
    },
    {
     "descripcion": "PAN DULCE DE CREMA PASTELERA",
@@ -11,19 +11,19 @@
   },
   {
     "descripcion": "TORTA POR KG",
-    "precio": "10.30 Ref"
+    "precio": "10.29 Ref"
   },
   {
     "descripcion": "PASTA SECA KG",
-    "precio": "7.50 Ref"
+    "precio": "8.69 Ref"
   },
   {
     "descripcion": "BOMBA RELLENA UND",
-    "precio": "1.00 Ref"
+    "precio": "0.99 Ref"
   },
   {
     "descripcion": "DONAS DE CHOCOLATE 1 UND",
-    "precio": "0.70 Ref"
+    "precio": "0.69 Ref"
   },
   
   {
@@ -32,11 +32,11 @@
   },
   {
     "descripcion": "PAN DE COCO 1 UND",
-    "precio": "0.60 Ref"
+    "precio": "0.59 Ref"
   },
   {
     "descripcion": "PAN DE GUAYABA",
-    "precio": "1.00 Ref"
+    "precio": "0.99 Ref"
   }
   
  ]
