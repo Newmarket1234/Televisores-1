@@ -218,6 +218,45 @@ h1 {
   border-radius: 50px;
 }
 
+.listaProductosGrid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:100px;
+  padding: 100px;
+  justify-items: center;
+}
+
+.productoGrid{
+  border: 10px solid rgb(31, 14, 14);
+  border-radius: 10px;
+  display: block;
+  align-items: center;
+  width: 80%;
+}
+
+.imagenGrid{
+  background-image:url("./pastelesMejor.jpg");
+  background-repeat: no-repeat;
+  height: 150px;
+  background-size: 100% 100%;
+}
+
+.infoProducto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.precioProductoGrid{
+
+}
+.nombreProductoGrid{
+  
+}
 
 .embutidos{
 
