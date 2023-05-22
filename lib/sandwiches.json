@@ -4,12 +4,12 @@
    {
      "descripcion": "SANDWICH JAMON Y QUESO",
      "precio": "3.99 Ref",
-     "imagen":"./sjamonyqueso.jpg"
+     "imagen":"./sjamonyqueso.jpeg"
    },
    {
     "descripcion": "SANDWICH ITALIANO",
     "precio": "2.99 Ref",
-    "imagen":"./sitaliano.jpg"
+    "imagen":"./sitaliano.jpeg"
   },
   {
     "descripcion": "SANDWICH PERNIL",
