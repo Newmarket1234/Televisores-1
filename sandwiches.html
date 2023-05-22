@@ -7,62 +7,19 @@
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
-  <body >
+  <body onload="cargarData()">
     
-  <main id="charcuteria"> 
+  <main id="sandwich"> 
     <div class="header" >
       <h1 class="titulos" style="color:white">GALERIA HYPERMARKET</h1>
       <div class="titulos"  style="color:white">Charcuteria</div>
     </div>
    <section class="listas" >
     <div class="listaProductosGrid">
-      <div class="productoGrid">
-        <div class="imagenGrid" style=""></div>
-        <div class="infoProducto">
-          <div class="nombreProductoGrid">Sandwich</div>
-          <div class="precioProductoGrid">30 ref</div>
-        </div>
-      </div>
+     
 
-      <div class="productoGrid">
-        <div class="imagenGrid" style=""></div>
-        <div class="infoProducto">
-          <div class="nombreProductoGrid">Sandwich</div>
-          <div class="precioProductoGrid">30 ref</div>
-        </div>
-      </div>
 
-      <div class="productoGrid">
-        <div class="imagenGrid" style=""></div>
-        <div class="infoProducto">
-          <div class="precioProductoGrid">Sandwich</div>
-          <div class="precioProductoGrid">30 ref</div>
-        </div>
-      </div>
-
-      <div class="productoGrid">
-        <div class="imagenGrid" style=""></div>
-        <div class="infoProducto">
-          <div class="precioProductoGrid">Sandwich</div>
-          <div class="precioProductoGrid">30 ref</div>
-        </div>
-      </div>
-
-      <div class="productoGrid">
-        <div class="imagenGrid" style=""></div>
-        <div class="infoProducto">
-          <div class="nombreProductoGrid">Sandwich</div>
-          <div class="precioProductoGrid">30 ref</div>
-        </div>
-      </div>
-
-      <div class="productoGrid">
-        <div class="imagenGrid" style=""></div>
-        <div class="infoProducto">
-          <div class="nombreProductoGrid">Sandwich</div>
-          <div class="precioProductoGrid">30 ref</div>
-        </div>
-      </div>
+      
 
 
     </div>
@@ -91,18 +48,18 @@ function reducirTamano(){
 
 function cargarData(){
 
- fetch('./lib/quesos.json').then(function(response) {
+ fetch('./lib/sandwiches.json').then(function(response) {
    let text="";
    if(response.ok) {
      response.json().then(function(response) {
        
-       let data=response.data.quesos.slice(0,6);
+       let data=response.data.sandwiches.slice(0,6);
         
        for (const productos of data) {
-         let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+         let text2="<div class='productoGrid'><div class='imagenGrid' style='background-image:url("+productos.imagen+")'></div><div class='infoProducto'><div class='precioProductoGrid'>"+productos.descripcion+"</div><div class='precioProductoGrid'>"+productos.precio+"</div></div></div>";
          text+=text2;
        }
-       document.querySelector(".listaProductos").innerHTML=text;
+       document.querySelector(".listaProductosGrid").innerHTML=text;
        
      });
    } else {
@@ -117,18 +74,18 @@ function cargarData(){
 setInterval(function(){
  let text="";
 
- fetch('./lib/quesos.json').then(function(response) {
+ fetch('./lib/sandwiches.json').then(function(response) {
    if(response.ok) {
      response.json().then(function(response) {
-      document.querySelector(".listaProductos").innerHTML="";
-       let data=response.data.quesos.slice(contador,contador+6);
+      document.querySelector(".listaProductosGrid").innerHTML="";
+       let data=response.data.sandwiches.slice(contador,contador+6);
         
        for (const productos of data) {
-         let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+        let text2="<div class='productoGrid'><div class='imagenGrid' style='background-image:url("+productos.imagen+")'></div><div class='infoProducto'><divclass='precioProductoGrid'>"+productos.descripcion+"</div><div class='precioProductoGrid'>"+productos.precio+"</div></div></div>";
          text+=text2;
        }
-       document.querySelector(".listaProductos").innerHTML=text;
-       if(contador>=response.data.quesos.length-5){
+       document.querySelector(".listaProductosGrid").innerHTML=text;
+       if(contador>=response.data.sandwiches.length-5){
          contador=0;
          }else{
          contador=contador+4;

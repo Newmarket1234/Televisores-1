@@ -123,6 +123,13 @@ main#cerdo{
   background-size: 100% 100%;
 }
 
+main#sandwich{
+  background-image: url("./sandwichMejor.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
 .header{
   text-align: center;
 }
