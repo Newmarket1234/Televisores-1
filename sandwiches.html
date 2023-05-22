@@ -81,7 +81,7 @@ setInterval(function(){
        let data=response.data.sandwiches.slice(contador,contador+6);
         
        for (const productos of data) {
-        let text2="<div class='productoGrid'><div class='imagenGrid' style='background-image:url("+productos.imagen+")'></div><div class='infoProducto'><divclass='precioProductoGrid'>"+productos.descripcion+"</div><div class='precioProductoGrid'>"+productos.precio+"</div></div></div>";
+        let text2="<div class='productoGrid'><div class='imagenGrid' style='background-image:url("+productos.imagen+")'></div><div class='infoProducto'><div class='precioProductoGrid'>"+productos.descripcion+"</div><div class='precioProductoGrid'>"+productos.precio+"</div></div></div>";
          text+=text2;
        }
        document.querySelector(".listaProductosGrid").innerHTML=text;
