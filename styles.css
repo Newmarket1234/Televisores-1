@@ -230,7 +230,7 @@ h1 {
   grid-template-columns: auto auto auto;
   grid-gap:100px;
   padding: 100px;
-  justify-items: center;
+  
 }
 
 .productoGrid{
@@ -238,7 +238,8 @@ h1 {
   border-radius: 10px;
   display: block;
   align-items: center;
-  width: 80%;
+  
+  
 }
 
 .imagenGrid{
