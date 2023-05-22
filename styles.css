@@ -86,7 +86,7 @@ main#pollera{
   background-size: 100% 100%;
 }
 main#dulceria{
-  background-image: url("./CAKES.jpg");
+  background-image: url("./dulcesMejor.jpg");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
@@ -98,7 +98,7 @@ main#gourmet{
   background-size: 100% 100%;
 }
 main#pasteles{
-  background-image: url("./pasteles.jpg");
+  background-image: url("./pastelesMejor.jpg");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
