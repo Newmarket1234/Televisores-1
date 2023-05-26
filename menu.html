@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript" src="script.js"></script>
   </head>
-  <body onload="cargarData()">
+  <body >
      
     <main id="gourmet"> 
       <div class="header" >
@@ -30,19 +30,15 @@
 
   <script>
     var contador=4;
- function reducirTamano(){
-   for (const a of document.querySelectorAll(".linea")) {
+    const d = new Date();
+   var day = d.getDay();
+   console.log(day);
+   if(day===5){
+    cargarPublicidad()
      
-     var text=a.textContent;
-     var length = 18;
-     var trimmedString = text.length > length ? 
-                     text.substring(0, 21) + "..." : 
-                     text;
-      a.textContent = trimmedString;
- 
+   }else{
+    cargarData();
    }
- }
- 
  function cargarData(){
  
    fetch('./lib/menu.json').then(function(response) {
@@ -67,7 +63,13 @@
      console.log('Hubo un problema con la petición Fetch:' + error.message);
    });
  }
- setInterval(function(){
+
+function cargarPublicidad(){
+  document.getElementById("gourmet").style.backgroundImage  = "url('./publicidad/menuViernes.jpeg)";
+ 
+}
+
+ const myInterval= setInterval(day===5 ? cargarPublicidad() : function(){
    let text="";
    
    fetch('./lib/menu.json').then(function(response) {
