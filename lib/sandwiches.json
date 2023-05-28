@@ -4,17 +4,17 @@
    {
      "descripcion": "SANDWICH JAMON Y QUESO",
      "precio": "3.99 Ref",
-     "imagen":"./sjamonsinfondo.png"
+     "imagen":"./fotos/platosjamon.png"
    },
    {
     "descripcion": "SANDWICH ITALIANO",
     "precio": "2.99 Ref",
-    "imagen":"./sitalianosinfondo.png"
+    "imagen":"./fotos/platositaliano.png"
   },
   {
     "descripcion": "SANDWICH PERNIL",
     "precio": "3.99 Ref",
-    "imagen":"./spernilsinfondo.png"
+    "imagen":"./fotos/platospernil.png"
   },
   {
     "descripcion": "CLUB HOUSE",
@@ -24,7 +24,7 @@
   {
     "descripcion": "SANDWICH DE POLLO",
     "precio": "2.99 Ref",
-    "imagen":"./spollosinfondo.png"
+    "imagen":"./fotos/platospollo.png"
   }
  ]
  }}
