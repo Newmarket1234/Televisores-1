@@ -9,12 +9,12 @@
    {
     "descripcion": "SANDWICH ITALIANO",
     "precio": "2.99 Ref",
-    "imagen":"./fotos/platositaliano.png"
+    "imagen":"./fotos/platositaliano1.png"
   },
   {
     "descripcion": "SANDWICH PERNIL",
     "precio": "3.99 Ref",
-    "imagen":"./fotos/platospernil.png"
+    "imagen":"./fotos/platospernil1.png"
   },
   {
     "descripcion": "CLUB HOUSE",
@@ -24,7 +24,7 @@
   {
     "descripcion": "SANDWICH DE POLLO",
     "precio": "2.99 Ref",
-    "imagen":"./fotos/platospollo.png"
+    "imagen":"./fotos/platospollo1.png"
   }
  ]
  }}
