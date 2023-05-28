@@ -234,11 +234,8 @@ h1 {
 }
 
 .productoGrid{
-  border: 10px solid rgb(31, 14, 14);
-  border-radius: 10px;
   display: block;
   align-items: center;
-  
   
 }
 
