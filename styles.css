@@ -130,6 +130,13 @@ main#sandwich{
   background-size: 100% 100%;
 }
 
+main#jugos{
+  background-image: url("./fotos/bgsandwichmejor.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
 .header{
   text-align: center;
 }
