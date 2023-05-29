@@ -59,7 +59,7 @@ main{
 }
 
 main#panaderia{
-  background-image: url("./panaderia.jpg");
+  background-image: url("./fotos/panaderia.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
@@ -67,13 +67,13 @@ main#panaderia{
 }
 
 main#carniceria{
-  background-image: url("./carniceriaMejor.jpg");
+  background-image: url("./fotos/carniceria.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
 main#charcuteria{
-  background-image: url("./quesosMejor.jpg");
+  background-image: url("./fotos/quesos.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
