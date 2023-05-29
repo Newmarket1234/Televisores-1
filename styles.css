@@ -80,44 +80,44 @@ main#charcuteria{
 }
 
 main#pollera{
-  background-image: url("./pollo.jpg");
+  background-image: url("./fotos/pollera.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
 main#dulceria{
-  background-image: url("./dulcesMejor.jpg");
+  background-image: url("./fotos/dulceria.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
 main#gourmet{
-  background-image: url("./gourmet.jpg");
+  background-image: url("./fotos/gourmet.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
 main#pasteles{
-  background-image: url("./pastelesMejor.jpg");
+  background-image: url("./fotos/pasteles.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
 main#pollo{
-  background-image: url("./polloCarniceria.png");
+  background-image: url("./fotos/pollo.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
 main#embutidos{
-  background-image: url("./embutidosMejor.jpg");
+  background-image: url("./fotos/embutidos.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
 
 main#cerdo{
-  background-image: url("./cerdo.jpg");
+  background-image: url("./fotos/cerdo.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
