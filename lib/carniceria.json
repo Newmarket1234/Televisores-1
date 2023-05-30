@@ -27,7 +27,7 @@
   },
   {
     "descripcion": "SOLOMO CUERITO KG",
-    "precio": "7.22 Ref"
+    "precio": "6.90 Ref"
   },
   {
     "descripcion": "BISTECK DE RES KG",
@@ -40,6 +40,10 @@
   {
     "descripcion": "CARNE PARA MECHAR KG",
     "precio": "5.60 Ref"
+  },
+  {
+    "descripcion": "POLLO DE RES KG",
+    "precio": "6.65 Ref"
   }
  ]
  }}
