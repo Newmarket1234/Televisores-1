@@ -29,6 +29,8 @@
 
   <script>
     var contador=4;
+    var contadorPublicidad=1;
+    var cpublicidad=1;
  function reducirTamano(){
    for (const a of document.querySelectorAll(".linea")) {
      
@@ -41,12 +43,25 @@
  
    }
  }
+ function cargarPublicidad() {
+   if(cpublicidad==1){
+    document.getElementById("pasteles").style.backgroundImage  = "url('./publicidad/publicidadPizza.jpg')";
+    cpublicidad++;
+  }else{
+    document.getElementById("pasteles").style.backgroundImage  = "url('./publicidad/publicidadPizza2.jpg')";
+    cpublicidad=1;
+  }
+ 
+     contadorPublicidad++;
+}
  
  function cargarData(){
  
    fetch('./lib/pasteles.json').then(function(response) {
      let text="";
+     
      if(response.ok) {
+      document.getElementById("pasteles").style.backgroundImage  = "url('./fotos/pasteles.png')";
        response.json().then(function(response) {
          
          let data=response.data.pasteles.slice(0,6);
@@ -67,10 +82,14 @@
    });
  }
  
- setInterval(function(){
+ setInterval( function(){
    let text="";
-   
-   fetch('./lib/pasteles.json').then(function(response) {
+   console.log(contadorPublicidad);
+  if(contadorPublicidad%2==0){
+    cargarPublicidad();
+    document.querySelector(".listaProductos").innerHTML=text;
+    }else{
+      fetch('./lib/pasteles.json').then(function(response) {
      if(response.ok) {
        response.json().then(function(response) {
         document.querySelector(".listaProductos").innerHTML="";
@@ -87,6 +106,7 @@
            contador=contador+4;
            }
        });
+       contadorPublicidad++;
      } else {
        console.log('Respuesta de red OK pero respuesta HTTP no OK');
      }
@@ -94,8 +114,10 @@
    .catch(function(error) {
      console.log('Hubo un problema con la petición Fetch:' + error.message);
    });
+    }
+  
  }
-   , 60000);
+   , 10000);
  
      </script>
 </html>
