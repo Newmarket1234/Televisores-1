@@ -33,12 +33,8 @@
     const d = new Date();
    var day = d.getDay();
    console.log(day);
-   if(day===5){
-    cargarPublicidad()
-     
-   }else{
     cargarData();
-   }
+  
  function cargarData(){
  
    fetch('./lib/menu.json').then(function(response) {
@@ -69,7 +65,7 @@ function cargarPublicidad(){
  
 }
 
- const myInterval= setInterval(day===5 ? cargarPublicidad() : function(){
+ const myInterval= setInterval( function(){
    let text="";
    
    fetch('./lib/menu.json').then(function(response) {
