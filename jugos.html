@@ -52,7 +52,7 @@ function cargarData(){
        let data=response.data.jugos.slice(0,6);
         
        for (const productos of data) {
-         let text2="<div class='producto'><div class='containerFruta' style='display:flex; flex-direction:row; align-items:center'><img class='imagenFruta' src="+productos.imagen+" alt='' style='height:120px; background-size: cover; background-repeat: no-repeat; background-position: center'><div class='nombre'><div class='nombreProducto'>"+productos.descripcion+"</div></div></div><div class='precioProducto'>"+productos.precio+"</div></div>"
+         let text2="<div class='producto'><div class='containerFruta' style='display:flex; flex-direction:row; align-items:center'><img class='imagenFruta' src="+productos.imagen+" alt='' style='width:120px; background-size: cover; background-repeat: no-repeat; background-position: center'><div class='nombre'><div class='nombreProducto'>"+productos.descripcion+"</div></div></div><div class='precioProducto'>"+productos.precio+"</div></div>"
          text+=text2;
        }
        document.querySelector(".listaProductos").innerHTML=text;
