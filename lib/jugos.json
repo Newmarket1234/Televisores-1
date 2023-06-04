@@ -3,48 +3,59 @@
     "jugos": [
       {
         "descripcion": "JUGO DE PIÑA",
-        "precio": "1.30 Ref"
+        "precio": "1.30 Ref",
+        "imagen": ""
       },
       {
         "descripcion": "MERENGADA DE CAMBUR",
-        "precio": "0.90 Ref"
+        "precio": "0.90 Ref",
+        "imagen": ""
       },
       
       {
         "descripcion": "MERENGADA DE GUANABANA",
-        "precio": "1.40 Ref"
+        "precio": "1.40 Ref",
+        "imagen": ""
       },
       {
         "descripcion": "JUGO DE NARANJA NATURAL",
-        "precio": "1.40 Ref"
+        "precio": "1.40 Ref",
+        "imagen": ""
       },
       {
         "descripcion": "JUGO DE PARCHITA",
-        "precio": "1.50 Ref"
+        "precio": "1.50 Ref",
+        "imagen" : ""
       },
       {
         "descripcion": "JUGO DE PATILLA",
-        "precio": "1.00 Ref"
+        "precio": "1.00 Ref",
+        "imagen": ""
       },
       {
         "descripcion": "JUGO DE GUAYABA",
-        "precio": "0.90 Ref"
+        "precio": "0.90 Ref",
+        "imagen": ""
       },
       {
         "descripcion": "JUGO DE FRESA",
-        "precio": "2.50 Ref"
+        "precio": "2.50 Ref",
+        "imagen": ""
       },
       {
         "descripcion": "JUGO DE MELON",
-        "precio": "1.30 Ref"
+        "precio": "1.30 Ref",
+        "imagen": ""
       },
       {
         "descripcion": "JUGO DE LECHOZA",
-        "precio": "1.10 Ref"
+        "precio": "1.10 Ref",
+        "imagen": ""
       },
       {
         "descripcion": "JUGO DE MELOCOTON",
-        "precio": "2.30 Ref"
+        "precio": "2.30 Ref",
+        "imagen": ""
       }
  ]
  }
