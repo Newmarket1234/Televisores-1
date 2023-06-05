@@ -64,7 +64,7 @@
       
        response.json().then(function(response) {
          
-         let data=response.data.pasteles.slice(0,6);
+         let data=response.data.pasteles.slice(0,5);
           
          for (const productos of data) {
            let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
@@ -94,7 +94,7 @@
       document.getElementById("pasteles").style.backgroundImage  = "url('./fotos/pasteles.png')";
        response.json().then(function(response) {
         document.querySelector(".listaProductos").innerHTML="";
-         let data=response.data.pasteles.slice(contador,contador+6);
+         let data=response.data.pasteles.slice(contador,contador+5);
           
          for (const productos of data) {
            let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
