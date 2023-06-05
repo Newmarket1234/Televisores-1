@@ -195,7 +195,7 @@ h1 {
 }
 
 .listaProductos{
-  padding-top: 5%;
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,7 +209,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 80%;
   color: white;
