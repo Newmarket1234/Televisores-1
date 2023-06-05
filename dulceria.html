@@ -42,7 +42,12 @@ function reducirTamano(){
 
   }
 }
-
+function cargarPublicidad() {
+   if(cpublicidad==1){
+    document.getElementById("dulceria").style.backgroundImage  = "url('./publicidad/HELADOS.jpg')";
+  }
+  contadorPublicidad++;
+}
 function cargarData(){
 
   fetch('./lib/dulceria.json').then(function(response) {
@@ -70,8 +75,11 @@ function cargarData(){
 
 setInterval(function(){
   let text="";
-  
-  fetch('./lib/dulceria.json').then(function(response) {
+  if(contadorPublicidad%2==0){
+    cargarPublicidad();
+    document.querySelector(".listaProductos").innerHTML=text;
+    }else{
+      fetch('./lib/dulceria.json').then(function(response) {
     if(response.ok) {
       response.json().then(function(response) {
         document.querySelector(".listaProductos").innerHTML="";
@@ -88,6 +96,7 @@ setInterval(function(){
           contador=contador+4;
           }
       });
+      contadorPublicidad++;
     } else {
       console.log('Respuesta de red OK pero respuesta HTTP no OK');
     }
@@ -95,6 +104,8 @@ setInterval(function(){
   .catch(function(error) {
     console.log('Hubo un problema con la petición Fetch:' + error.message);
   });
+    }
+  
 }
   , 60000);
 
