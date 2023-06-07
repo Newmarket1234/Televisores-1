@@ -21,15 +21,39 @@
     "descripcion": "PAPA RELLENA",
     "precio": "1.39 Ref"
   },
-  
   {
     "descripcion": "TIZANA",
     "precio": "1.88 Ref"
   },
-  
   {
     "descripcion": "AREPA CON POLLO",
     "precio": "3.49 Ref"
+  },
+  {
+    "descripcion": "AREPA CON CARNE MECHADA",
+    "precio": "3.50 Ref"
+  },
+  {
+    "descripcion": "AREPA CON JAMON Y QUESO",
+    "precio": "3.50 Ref"
+  },
+  {
+    "descripcion": "AREPA CON CARNE MECHADA",
+    "precio": "3.50 Ref"
+  },
+  {
+    "descripcion": "WAFFLES SENCILLO",
+    "precio": "1.00 Ref"
+  },
+  {
+    "descripcion": "WAFFLES MIXTO",
+    "precio": "2.80 Ref"
+  },
+  {
+    "descripcion": "WAFFLES CON CREMA",
+    "precio": "0.80 Ref"
   }
- ]
+  
+]
+  
  }}
