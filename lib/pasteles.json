@@ -37,11 +37,14 @@
   {
     "descripcion": "HOJALDRE DE QUESO",
     "precio": "1.95 Ref"
-  }
-  ,
+  },
   {
     "descripcion": "CROISSANT 1 UND",
     "precio": "2.59 Ref"
+  },
+  {
+    "descripcion": "PASTELITO AMERICANO UND",
+    "precio": "2.49 Ref"
   }
   
  ]
