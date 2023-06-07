@@ -224,6 +224,13 @@ h1 {
   
 }
 
+.subdescripcion{
+  text-align: left;
+  background:rgba(0, 0, 0, 0.384);
+  border-radius: 50px;
+  font-size: 30px;
+}
+
 .precioProducto{
   
   padding: 10px;
