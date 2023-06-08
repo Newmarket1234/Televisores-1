@@ -93,8 +93,10 @@ setInterval(function(){
     cargarPublicidad();
     document.querySelector(".listaProductosGrid").innerHTML=text;
     }else{
+      document.getElementById("sandwich").style.backgroundImage  = "url('./fotos/bgsandwichmejor.png')";
       fetch('./lib/sandwiches.json').then(function(response) {
    if(response.ok) {
+
      response.json().then(function(response) {
       document.querySelector(".listaProductosGrid").innerHTML="";
        let data=response.data.sandwiches.slice(contador>response.data.sandwiches.length-5? 0:contador,contador+6);
