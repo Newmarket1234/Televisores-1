@@ -35,6 +35,8 @@
   var contador=4;
   var contadorPublicidad=1;
     var cpublicidad=1;
+    var dt = new Date();
+    console.log(dt.getHours()); 
 function reducirTamano(){
  for (const a of document.querySelectorAll(".linea")) {
    
@@ -87,9 +89,15 @@ function cargarPublicidad() {
      contadorPublicidad++;
 }
 
+
+
 setInterval(function(){
+  var dt = new Date();
+  dt.getHours();
+console.log(contadorPublicidad);
  let text="";
- if(contadorPublicidad%2==0){
+ if(dt.getHours===17){
+  if(contadorPublicidad%2==0){
     cargarPublicidad();
     document.querySelector(".listaProductosGrid").innerHTML=text;
     }else{
@@ -124,7 +132,38 @@ setInterval(function(){
  });
     }
  
+}else{
+  
+      fetch('./lib/sandwiches.json').then(function(response) {
+   if(response.ok) {
+
+     response.json().then(function(response) {
+      document.querySelector(".listaProductosGrid").innerHTML="";
+       let data=response.data.sandwiches.slice(contador>response.data.sandwiches.length-5? 0:contador,contador+6);
+        
+       for (const productos of data) {
+        let text2="<div class='productoGrid'><div class='imagenGrid' style='background-image:url("+productos.imagen+")'></div><div class='infoProducto'><div class='precioProductoGrid'>"+productos.descripcion+"</div><div class='precioProductoGrid'>"+productos.precio+"</div></div></div>";
+         text+=text2;
+       }
+       document.querySelector(".listaProductosGrid").innerHTML=text;
+       
+       
+       if(contador>=response.data.sandwiches.length-5){
+         contador=0;
+         }else{
+         contador=contador+4;
+         }
+     });
+   } else {
+     console.log('Respuesta de red OK pero respuesta HTTP no OK');
+   }
+ })
+ .catch(function(error) {
+   console.log('Hubo un problema con la petición Fetch:' + error.message);
+ });
 }
+ }
+
  , 30000);
 
    </script>
