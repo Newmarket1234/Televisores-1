@@ -29,6 +29,8 @@
 </body>
 <script>
   var contador=4;
+  var contadorPublicidad=1;
+    var cpublicidad=1;
 function reducirTamano(){
  for (const a of document.querySelectorAll(".linea")) {
    
@@ -40,6 +42,11 @@ function reducirTamano(){
     a.textContent = trimmedString;
 
  }
+}
+
+function cargarPublicidad(){
+  document.getElementById("jugos").style.backgroundImage  = "url('./publicidad/Empanadas.jpg')";
+ 
 }
 
 function cargarData(){
