@@ -43,17 +43,23 @@ function reducirTamano(){
 
  }
 }
-function cargarData(){
+
+function cargarPublicidad(){
+  document.getElementById("jugos").style.backgroundImage  = "url('./publicidad/Empanadas.jpg')";
  
+}
+
+function cargarData(){
+
  fetch('./lib/jugos.json').then(function(response) {
    let text="";
    if(response.ok) {
      response.json().then(function(response) {
        
-       let data=response.data.Menu.slice(0,5);
+       let data=response.data.jugos.slice(0,3);
         
        for (const productos of data) {
-         let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+         let text2="<div class='producto'><div class='containerFruta' style='display:flex; flex-direction:row; align-items:center'><img class='imagenFruta' src="+productos.imagen+" alt='' style='width:120px; background-size: cover; background-repeat: no-repeat; background-position: center'><div class='nombre'><div class='nombreProducto'>"+productos.descripcion+"</div></div></div><div class='precioProducto'>"+productos.precio+"</div></div>"
          text+=text2;
        }
        document.querySelector(".listaProductos").innerHTML=text;
@@ -68,7 +74,6 @@ function cargarData(){
  });
 }
 
-
 setInterval(function(){
 
  let text="";
@@ -78,11 +83,11 @@ setInterval(function(){
      response.json().then(function(response) {
       document.querySelector(".listaProductos").innerHTML="";
        let data=response.data.jugos.slice(contador,contador+3);
-       
+        
        for (const productos of data) {
-           let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
-           text+=text2;
-         }              
+         let text2="<div class='producto'><div class='containerFruta' style='display:flex; flex-direction:row; align-items:center'><img class='imagenFruta' src="+productos.imagen+" alt='' style='width:120px; background-size: cover; background-repeat: no-repeat; background-position: center'><div class='nombre'><div class='nombreProducto'>"+productos.descripcion+"</div></div></div><div class='precioProducto'>"+productos.precio+"</div></div>"
+         text+=text2;
+       }
        document.querySelector(".listaProductos").innerHTML=text;
        if(contador>=response.data.jugos.length-5){
          contador=0;
