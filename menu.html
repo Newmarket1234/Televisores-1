@@ -64,16 +64,14 @@
 
 function cargarPublicidad(){
   if(cpublicidad==1){
-    document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/menuEspccial.jpeg')";
-    cpublicidad++;
-  }else if(cpublicidad==2){
+    document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/arrozFrito.jpeg')";
+  //  cpublicidad++; 
+  }/*
+  else if(cpublicidad==2){
     document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/MenuEspecial2.jpeg')";
     cpublicidad++;
-  }else if(cpublicidad==3){
-    document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/arrozFrito.jpeg')";
-    cpublicidad=cpublicidad-2;
-    
   }
+  */
      contadorPublicidad++;
 }
  
@@ -103,6 +101,7 @@ function cargarPublicidad(){
            contador=contador+4;
            }
        });
+       contadorPublicidad++;
      } else {
        console.log('Respuesta de red OK pero respuesta HTTP no OK');
      }
