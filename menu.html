@@ -61,14 +61,30 @@
  }
 
 function cargarPublicidad(){
-  document.getElementById("gourmet").style.backgroundImage  = "url('./publicidad/menuViernes1.jpg')";
+  if(cpublicidad==1){
+    document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/menuEspccial.jpeg')";
+    cpublicidad++;
+  }else if(cpublicidad==2){
+    document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/MenuEspecial2.jpeg')";
+    cpublicidad++;
+  }else if(cpublicidad==3){
+    document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/arrozFrito.jpeg')";
+    cpublicidad=cpublicidad-2;
+    
+  }
+     contadorPublicidad++;
+}
  
 }
 
  const myInterval= setInterval( function(){
    let text="";
-   
-   fetch('./lib/menu.json').then(function(response) {
+   if(contadorPublicidad%2==0){
+    cargarPublicidad();
+    document.querySelector(".listaProductosGrid").innerHTML=text;
+    }else{
+      document.getElementById("gourmet").style.backgroundImage  = "url('./fotos/gourmet.png')";
+      fetch('./lib/menu.json').then(function(response) {
      if(response.ok) {
        response.json().then(function(response) {
         document.querySelector(".listaProductos").innerHTML="";
@@ -92,6 +108,8 @@ function cargarPublicidad(){
    .catch(function(error) {
      console.log('Hubo un problema con la petición Fetch:' + error.message);
    });
+    }
+  
  }
    , 60000);
  
