@@ -12,6 +12,12 @@ body {
   background-color: white;
   
 }
+
+@font-face {
+  font-family:'cursive';
+  src: url("./fonts/DancingScript-Bold.ttf");
+}
+
 .header{
   display: none;
 }
@@ -272,6 +278,20 @@ h1 {
   font-size: 21px;
   
   
+}
+
+.tituloSegundaParte{
+  color: green;
+  font-family: 'cursive';
+}
+.Precios{
+  font-family: Bookman, serif;
+}
+.decimales{
+font-size: 40px;
+}
+.ref{
+font-size: 25px;
 }
 
 .precioProductoGrid{
