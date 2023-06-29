@@ -246,7 +246,7 @@ h1 {
 .listaProductosGrid{
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap:100px;
+  grid-gap:50px;
   padding: 150px;
   
 }
