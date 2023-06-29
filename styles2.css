@@ -245,10 +245,11 @@ h1 {
 
 .listaProductosGrid{
   display: grid;
+   position: relative;
   grid-template-columns: auto auto auto;
   grid-gap:50px;
   padding: 150px;
-  
+  left: -40;
 }
 
 .productoGrid{
