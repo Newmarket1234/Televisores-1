@@ -62,7 +62,7 @@
    });
  }
 
-function cargarPublicidad()
+ function cargarPublicidad()
 {
   if(cpublicidad==1)
  {
@@ -71,14 +71,18 @@ function cargarPublicidad()
   }
   else if(cpublicidad==2)
   {
-    document.getElementById("gourmet").style.backgroundImage  = "url('./publicidad/CHICHA.jpg')";
-    cpublicidad=cpublicidad-1; 
+    document.getElementById("gourmet").style.backgroundImage  = "url('./publicidad/ensaladas.png')";
+    cpublicidad++; 
   }
-  /*else if(cpublicidad==3)
+  else if(cpublicidad==3)
   {
-    document.getElementById("gourmet").style.backgroundImage  = "url('./publicidad/menuEsoecial.jpg')";
-    cpublicidad=cpublicidad-2;
-  }*/
+    document.getElementById("gourmet").style.backgroundImage  = "url('./publicidad/lumpias.png')";
+    cpublicidad=++;
+  }else if(cpublicidad==4)
+  {
+    document.getElementById("gourmet").style.backgroundImage  = "url('./publicidad/sopa.png')";
+    cpublicidad=cpublicidad-3;
+  }
 
      contadorPublicidad++;
 }
