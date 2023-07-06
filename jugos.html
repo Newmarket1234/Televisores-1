@@ -77,8 +77,11 @@ function cargarData(){
 setInterval(function(){
 
  let text="";
- 
- fetch('./lib/jugos.json').then(function(response) {
+ if(contadorPublicidad%2==0){
+    cargarPublicidad();
+    document.querySelector(".listaProductos").innerHTML=text;
+    }else{
+      fetch('./lib/jugos.json').then(function(response) {
    if(response.ok) {
      response.json().then(function(response) {
       document.querySelector(".listaProductos").innerHTML="";
@@ -102,6 +105,8 @@ setInterval(function(){
  .catch(function(error) {
    console.log('Hubo un problema con la petición Fetch:' + error.message);
  });
+    }
+ 
 
 
 }
