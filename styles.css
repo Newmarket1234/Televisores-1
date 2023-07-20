@@ -18,6 +18,11 @@ body {
   src: url("./fonts/DancingScript-Bold.ttf");
 }
 
+@font-face {
+  font-family: 'rustic';
+  src: url("./fonts/FontsFree-Net-zuumerough-bold-2.ttf");
+}
+
 .header{
   display: none;
 }

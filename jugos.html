@@ -45,7 +45,16 @@ function reducirTamano(){
 }
 
 function cargarPublicidad(){
-  document.getElementById("jugos").style.backgroundImage  = "url('./publicidad/chicha.png')";
+  if(cpublicidad===1){
+    document.getElementById("jugos").style.backgroundImage  = "url('./publicidad/chicha.png')";
+    cpublicidad++; 
+  }else if(cpublicidad===2){
+    document.getElementById("jugos").style.backgroundImage  = "url('./publicidad/papas.png')";
+    cpublicidad=cpublicidad++;
+  }else if (cpublicidad===3) {
+    document.getElementById("jugos").style.backgroundImage  = "url('./publicidad/arepas.png')";
+    cpublicidad=cpublicidad-1;
+  }
   contadorPublicidad++;
 }
 
