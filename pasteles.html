@@ -37,7 +37,7 @@
     var cpublicidad=1;
     var contadorVideo=1;
 
-    var interval=6000;
+    var interval=15000;
    var run=setInterval(runPublicityAndVideos, interval);
 
 
@@ -55,7 +55,7 @@
  }
  function cargarPublicidad() {
    if(cpublicidad==1){
-    document.getElementById("pasteles").style.backgroundImage  = "url('./publicidad/pizza1.png')";
+    document.getElementById("pasteles").style.backgroundImage  = "url('./publicidad/pizza2.png')";
     cpublicidad++;
   }else{
     document.getElementById("pasteles").style.backgroundImage  = "url('./publicidad/pizza2.png')";
@@ -72,7 +72,7 @@ function myHandler(e) {
     video2.style.display="none";
     e.preventDefault();
     clearInterval(run);
-    interval=6000;
+    interval=15000;
     run = setInterval(runPublicityAndVideos, interval);
 
   }
