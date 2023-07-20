@@ -15,6 +15,10 @@
         <div class="titulos"  style="color:white">Sopas</div>
       </div>
      <section class="listas">
+      <video muted="muted"  id="myVideo">
+        <source id="sourceVideo" src="/videos/videoPizza.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
       <div class="listaProductos">
        
       </div>
@@ -31,6 +35,12 @@
     var contador=4;
     var contadorPublicidad=1;
     var cpublicidad=1;
+    var contadorVideo=1;
+
+    var interval=6000;
+   var run=setInterval(runPublicityAndVideos, interval);
+
+
  function reducirTamano(){
    for (const a of document.querySelectorAll(".linea")) {
      
@@ -53,6 +63,73 @@
   }
  
      contadorPublicidad++;
+}
+
+document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+
+function myHandler(e) {
+    var video2=document.getElementById('myVideo');
+    video2.style.display="none";
+    e.preventDefault();
+    clearInterval(run);
+    interval=6000;
+    run = setInterval(runPublicityAndVideos, interval);
+
+  }
+
+function runPublicityAndVideos(){
+  let text="";
+   
+  if(contadorVideo===6){
+    contadorVideo=contadorVideo-5;
+    
+   var video= document.getElementById("myVideo");
+   video.style.display="block";
+   video.muted = true;
+   video.play();
+
+   
+  }else if(contadorPublicidad%2==0){
+    cargarPublicidad();
+    document.querySelector(".listaProductos").innerHTML=text;
+    }else{
+      contadorVideo++;
+      fetch('./lib/pasteles.json').then(function(response) {
+     if(response.ok) {
+      document.getElementById("pasteles").style.backgroundImage  = "url('./fotos/pasteles.png')";
+       response.json().then(function(response) {
+        document.querySelector(".listaProductos").innerHTML="";
+         let data=response.data.pasteles.slice(contador,contador+5);
+          
+         for (const productos of data) {
+           let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
+           text+=text2;
+         }
+         document.querySelector(".listaProductos").innerHTML=text;
+         if(contador>=response.data.pasteles.length-5){
+           contador=0;
+           }else{
+           contador=contador+4;
+           }
+       });
+       contadorPublicidad++;
+       if(contadorVideo===6){
+      clearInterval(run);
+      var video1= document.getElementById("myVideo");
+      var duration=(video1.duration*1000);
+      console.log(video1.duration)
+      interval=duration
+      run = setInterval(runPublicityAndVideos, interval);
+     }
+     } else {
+       console.log('Respuesta de red OK pero respuesta HTTP no OK');
+     }
+   })
+   .catch(function(error) {
+     console.log('Hubo un problema con la petición Fetch:' + error.message);
+   });
+    }
+  
 }
  
  function cargarData(){
@@ -81,7 +158,8 @@
      console.log('Hubo un problema con la petición Fetch:' + error.message);
    });
  }
- 
+
+ /*
  setInterval( function(){
    let text="";
    
@@ -119,6 +197,6 @@
   
  }
    , 60000);
- 
+ */
      </script>
 </html>

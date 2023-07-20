@@ -95,6 +95,7 @@
     cargarPublicidad();
     document.querySelector(".listaProductos").innerHTML=text;
     }else{
+     
       document.getElementById("gourmet").style.backgroundImage  = "url('./fotos/gourmet.png')";
       fetch('./lib/menu.json').then(function(response) {
      if(response.ok) {
