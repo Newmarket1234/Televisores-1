@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+box-sizing: border-box;
+}
+@font-face {
+    font-family: 'rustic';
+    src: url("./fonts/FontsFree-Net-zuumerough-bold-2.ttf");
+  }
+
+  @font-face {
+    font-family: 'boldPrice';
+    src: url("/fonts/MoonkidsPersonalUseExtbd-gxPZ3.ttf");
+  }
+  @font-face {
+    font-family: 'Brussels';
+    src: url("/fonts/BrusselsCityPersonalUsed-L3Lon.otf");
+  }
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.firstImage{
+    flex-basis: 60%;
+    background-image: url("/images/hojaldre.png");
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.secondImage{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+}
+.descripcionContainer{
+    position: absolute;
+    left: 35%;
+    top: 45%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 20;
+}
+.hojaldre{
+    font-size: 50px;
+    letter-spacing: .4rem;
+    font-family: 'boldPrice';
+}
+.detallesHojaldre{
+    position: relative;
+    left: 30px;
+    z-index: 40;
+    
+}
+.comidaPreferida{
+    position: absolute;
+    bottom: 60px;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    font-family: 'Brussels',
+}
+
+.logoAndQrContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gridContainer{
+width: 100%;
+display: grid;
+ grid-template-columns: auto auto auto;
+justify-content: center;
+}
+.preciosGrid{
+    
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
