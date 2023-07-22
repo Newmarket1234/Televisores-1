@@ -4,7 +4,7 @@ box-sizing: border-box;
 }
 @font-face {
     font-family: 'rustic';
-    src: url("./fonts/FontsFree-Net-zuumerough-bold-2.ttf");
+    src: url("/fonts/FontsFree-Net-zuumerough-bold-2.ttf");
   }
 
   @font-face {
@@ -16,7 +16,7 @@ box-sizing: border-box;
     src: url("/fonts/BrusselsCityPersonalUsed-L3Lon.otf");
   }
 
-.container{
+.containerHojaldre{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -42,7 +42,7 @@ box-sizing: border-box;
 .descripcionContainer{
     position: absolute;
     left: 35%;
-    top: 45%;
+    top: 47%;
     color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -82,12 +82,23 @@ display: grid;
 justify-content: center;
 }
 .preciosGrid{
-    
+    font-family: 'rustic';
+    font-size: 30px;
     color: white;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  width: 400px;
+  
+}
+.descripcionyPrecio{
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
