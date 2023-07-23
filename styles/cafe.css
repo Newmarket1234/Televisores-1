@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+box-sizing: border-box;
+}
+@font-face {
+    font-family: 'rustic';
+    src: url("/fonts/FontsFree-Net-zuumerough-bold-2.ttf");
+  }
+
+  @font-face {
+    font-family: 'boldPrice';
+    src: url("/fonts/MoonkidsPersonalUseExtbd-gxPZ3.ttf");
+  }
+  @font-face {
+    font-family: 'Brussels';
+    src: url("/fonts/BrusselsCityPersonalUsed-L3Lon.otf");
+  }
+
+.containerHojaldre{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.firstImage{
+    flex-basis: 65%;
+    background-image: url("/images/hojaldre.png");
+    background-color: rgb(40,24,17);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.secondImage{
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(40,24,17);
+}
+.descripcionContainer{
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 20;
+}
+.hojaldre{
+    font-size: 50px;
+    letter-spacing: .4rem;
+    font-family: 'boldPrice';
+}
+.detallesHojaldre{
+    position: relative;
+    left: 30px;
+    z-index: 40;
+    
+}
+.comidaPreferida{
+    position: absolute;
+    bottom: 60px;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    font-family: 'Brussels',
+}
+
+.logoAndQrContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gridContainer{
+width: 100%;
+display: grid;
+ grid-template-columns: auto auto auto;
+justify-content: center;
+}
+.preciosGrid{
+    font-family: 'rustic';
+    font-size: 30px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  
+}
+.descripcionyPrecio{
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
