@@ -16,12 +16,14 @@
         <div class="titulos"  style="color:white">Sopas</div>
       </div>
      <section class="listas">
+      <iframe src="/prueba2.html" id="frameHojaldre" title="W3Schools Free Online Web Tutorials">
+      </iframe>
       <video muted="muted"  id="myVideo">
         <source id="sourceVideo" src="/videos/videoPizza.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
       </video>
       <div class="listaProductos">
-       
+        
       </div>
 
 
@@ -83,16 +85,21 @@ function runPublicityAndVideos(){
   let text="";
    
 
-  if(contadorHojaldre===99){
+  if(contadorHojaldre===3){
+  
+
     contadorHojaldre=contadorHojaldre-2;
     document.querySelector(".listaProductos").style.paddingTop="0";
     document.querySelector(".listaProductos").innerHTML=text;
-    let text3="  <div class='containerHojaldre'><div class='descripcionContainer'><div class='hojaldre'>HOJALDRE</div><img class='detalleshojaldre' width='500' height='100' src='/images/detallesHojaldre.png' alt=''><div class='comidaPreferida'>EN TU LUGAR PREFERIDO</div></div><div class='firstImage'></div><div class='secondImage'><div class='logoAndQrContainer'><img src='/logo.png' width='150' height='80'  alt=''><img src='/images/qr-code.png' width='100' height='80' alt=''></div><div class='gridContainer'><div class='preciosGrid'><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE POLLO</div><div class='price'>REF 1,95</div><div class='descripcionyPrecio'><div class='description'>HOJALDRE RICOTTA C ESPINACA</div><div class='price'>REF 1,95</div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE CARNE</div><div class='price'>REF 1,79</div></div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE QUESO</div><div class='price'>REF 1,95</div></div></div><div class='preciosGrid'><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE GUAYABA</div><div class='price'>REF 1,50</div></div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE CABELLO DE ANGEL</div><div class='price'>REF 1,50</div></div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE JAMON</div><div class='price'>REF 2,25</div></div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE JAMON CON QUESO CREMA</div><div class='price'>REF 3,09</div></div> </div></div></div></div>"
+    document.getElementById("frameHojaldre").style.display="block";
+    /*
+    let text3="  <div class='containerHojaldre'><div class='descripcionContainer'><div class='hojaldre'>HOJALDRE</div><img class='detalleshojaldre' width='500' height='100' src='/images/detallesHojaldre.png' alt=''><div class='comidaPreferida'>EN TU LUGAR PREFERIDO</div></div><div class='firstImage'></div><div class='secondImage'><div class='logoAndQrContainer'><img src='/logo.png' width='150' height='80'  alt=''><img src='/images/qr-code.png' width='100' height='80' alt=''></div><div class='gridContainer'><div class='preciosGrid'><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE POLLO</div><div class='price'>REF 1,95</div></div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE CARNE</div><div class='price'>REF 1,95</div></div><div class='descripcionyPrecio'<div class='description'>HOJALDRE DE QUESO</div><div class='price'>REF 1,95</div></div><div class='descripcionyPrecio'><div class='description'>HOJALDRE RICOTTA CON ESPINACA</div><div class='price'>REF 1,95</div></div></div><div class='preciosGrid'><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE GUAYABA</div><div class='price'>REF 1,50</div> </div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE CABELLO DE ANGEL</div><div class='price'>REF 1,50</div> </div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE JAMON</div><div class='price'>REF 2,25</div></div><div class='descripcionyPrecio'><div class='description'>HOJALDRE DE JAMON CON QUESO CREMA</div><div class='price'>REF 3,09</div></div></div></div></div></div>"
      text+=text3;
      document.querySelector(".listaProductos").innerHTML=text;
+     */
   }else if(contadorVideo===6){
     contadorVideo=contadorVideo-5;
-    
+    document.getElementById("frameHojaldre").style.display="none";
    var video= document.getElementById("myVideo");
    video.style.display="block";
    video.muted = true;
@@ -101,11 +108,13 @@ function runPublicityAndVideos(){
    
   }else if(contadorPublicidad%2==0){
     cargarPublicidad();
+    document.getElementById("frameHojaldre").style.display="none";
     document.querySelector(".listaProductos").innerHTML=text;
     }else{
       contadorVideo++;
       fetch('./lib/pasteles.json').then(function(response) {
      if(response.ok) {
+      document.getElementById("frameHojaldre").style.display="none";
       document.getElementById("pasteles").style.backgroundImage  = "url('./fotos/pasteles.png')";
        response.json().then(function(response) {
         document.querySelector(".listaProductos").style.paddingTop="10%";
@@ -124,7 +133,7 @@ function runPublicityAndVideos(){
            }
        });
        contadorPublicidad++;
-       
+       contadorHojaldre++;
        if(contadorVideo===6){
       clearInterval(run);
       var video1= document.getElementById("myVideo");
