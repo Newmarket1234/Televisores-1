@@ -41,8 +41,8 @@ box-sizing: border-box;
 }
 .descripcionContainer{
     position: absolute;
-    left: 35%;
-    top: 47%;
+    left: 30%;
+    top: 49%;
     color: aliceblue;
     display: flex;
     flex-direction: column;
