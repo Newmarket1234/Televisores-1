@@ -42,7 +42,7 @@ box-sizing: border-box;
 .descripcionContainer{
     position: absolute;
     left: 30%;
-    top: 49%;
+    top: 45%;
     color: aliceblue;
     display: flex;
     flex-direction: column;
