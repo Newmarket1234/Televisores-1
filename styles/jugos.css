@@ -88,13 +88,23 @@ justify-content: center;
     color: white;
     margin-left: 80px;
     margin-right: 80px;
+    margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 400px;
   
 }
+.description{
+    margin-bottom: 20px;
+}
+.price{
+    margin-bottom: 20px;
+}
+
+
+
 .descripcionyPrecio{
    width: 100%;
     display: flex;
@@ -110,3 +120,18 @@ justify-content: center;
     letter-spacing: 40px;
     color: white;
 }
+
+.secondSection{
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    box-shadow: -8px 0 5px -5px rgba(0, 0, 0, 0.45), 8px 0 5px -5px rgba(0, 0, 0, 0.45);
+    
+    
+}
+.secondSection > *:first-child {
+    margin-top: 20px;
+  }
+
+  
