@@ -26,7 +26,7 @@ box-sizing: border-box;
 
 .firstImage{
     flex-basis: 60%;
-    background-image: url("/images/hojaldre.png");
+    background-image: url("/images/pantallaHojaldre.png");
     background-color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
