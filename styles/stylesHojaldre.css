@@ -81,6 +81,7 @@ display: grid;
  grid-template-columns: auto auto auto;
 justify-content: center;
 }
+
 .preciosGrid{
     font-family: 'rustic';
     font-size: 30px;
