@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 @font-face {
     font-family: 'rustic';
-    src: url("/fonts/fontspring-demo-zuumerough-bold.otf");
+    src: url("/fonts/Halftoned\ Backup.ttf");
   }
 
   @font-face {
@@ -89,7 +89,7 @@ justify-content: center;
 .preciosGrid1, .preciosGrid2, .preciosGrid3 { 
 
     font-family: 'rustic';
-    font-size: 30px;
+    font-size: 15px;
     color: white;
     margin-left: 80px;
     margin-right: 80px;
