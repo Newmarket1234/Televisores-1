@@ -37,7 +37,49 @@
   {
     "descripcion": "QUESO BLANCO DE BUFALA PACOMELA",
     "precio": "13.51 Ref"
+  },
+   {
+    "descripcion":"QUESO EMMENTAL EMMANUEL KG",
+    "precio": "11.99 Ref"
+   },
+  {
+    "descripcion":"QUESO MOZARELLA ARTESANAL KG",
+    "precio": "5.98 Ref"
+  },
+  {
+    "descripcion":"QUESO AMARILLO GUAMITO KG",
+    "precio":"10.58 Ref"
+  },
+  {
+    "descripcion":"QUESO AMARILLO ZEDEÑO KG",
+    "precio":"11.88 Ref"
+  },
+  {
+    "descripcion": "QUESO T/PAISA EL GUAMITO X KG",
+    "precio": "7.88 Ref"
+  },
+  {
+    "descripcion": "QUESO T/PAISA EMMANUEL X KG",
+    "precio": "8.63 Ref"
+  },
+  {
+    "descripcion":"QUESO BLANCO ESPECIAL PAISA KG",
+    "precio": "15.84 Ref"
+  },
+  {
+    "descripcion": "QUESO MOZARRELLA GUAMITO KG",
+    "precio": "8.52 Ref"
+  },
+  {
+    "descripcion": "QUESO PARMESANO ARTESANAL KG",
+    "precio": "26.03 Ref"
+  },
+  {
+    "descripcion": "QUESO PECORINO EMMANUEL KG",
+    "precio": "26.72 Ref"
   }
+
+
   
  ]
  }}
