@@ -208,7 +208,82 @@ function runPublicityAndVideos() {
 
 }
 */
+function newCargarPublicidad(){
+    switch (cpublicidad) {
+           case 1:
+            
+           document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/combo1.png')";
+           cpublicidad++;
+            break;
+            case 2:
+            
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/combo2.png')";
+            cpublicidad++;
+            break;
 
+            case 3:
+            
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/combo3.png')";
+            cpublicidad++;
+            break;
+            case 4:
+            
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/Empanadas.jpg')";
+            cpublicidad++;
+            break;
+            case 5:
+            
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/arepas.png')";
+            cpublicidad++;
+            break;
+            case 6:
+            
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/chicha.png')";
+            cpublicidad++;
+            break;
+            case 7:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/empanadas.png')";
+            cpublicidad++;
+            break;
+            case 8:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/ensaladas.png')";
+            cpublicidad++;
+            break;
+            case 9:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/helados2.png')";
+            cpublicidad++;
+            break;
+            case 10:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/lumpias.png')";
+            cpublicidad++;
+            break;
+            case 11:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/papas.png')";
+            cpublicidad++;
+            break;
+            case 12:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/pollo.png')";
+            cpublicidad++;
+            break;
+            case 13:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/sopa.png')";
+            cpublicidad++;
+            break;
+            case 14:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/affocato.png')";
+            cpublicidad++;
+            break;
+            case 15:
+            document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/arrozFrito.jpeg')";
+            cpublicidad=cpublicidad-14
+            break;
+            
+        default:
+            break;
+    }
+    contadorPublicidad++;
+}
+/*
 function cargarPublicidad() {
    if(cpublicidad==1){
     document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/combo1.png')";
@@ -271,13 +346,13 @@ function cargarPublicidad() {
     document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/affocato.png')";
     cpublicidad++;
   }else if(cpublicidad==15){
-    document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/arrozFrito.png')";
+    document.getElementById("sandwich").style.backgroundImage  = "url('./publicidad/arrozFrito.jpeg')";
     cpublicidad=cpublicidad-14
   }
  
      contadorPublicidad++;
 }
-
+*/
 
 
 setInterval(function(){
@@ -287,7 +362,8 @@ console.log(contadorPublicidad);
  let text="";
  
   if(contadorPublicidad%2==0){
-    cargarPublicidad();
+    newCargarPublicidad()
+    // cargarPublicidad();
     document.querySelector(".listaProductosGrid").innerHTML=text;
     }else{
       document.getElementById("sandwich").style.backgroundImage  = "url('./fotos/bgsandwichmejor.png')";
