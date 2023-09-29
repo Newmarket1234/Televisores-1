@@ -89,6 +89,7 @@
     }else{
    fetch('./lib/embutidos.json').then(function(response) {
      if(response.ok) {
+      document.getElementById("embutidos").style.backgroundImage  = "url('./fotos/embutidos.png')";
        response.json().then(function(response) {
         document.querySelector(".listaProductos").innerHTML="";
          let data=response.data.embutidos.slice(contador,contador+5);
@@ -114,7 +115,7 @@
    });
   }
   }
-   , 10000);
+   , 45000);
   
      </script>
 </html>
