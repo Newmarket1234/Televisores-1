@@ -30,6 +30,8 @@
 
   <script>
     var contador=4;
+    var contadorPublicidad=1;
+    var cpublicidad=1;
   function reducirTamano(){
    for (const a of document.querySelectorAll(".linea")) {
      
@@ -42,6 +44,17 @@
   
    }
   }
+
+  function cargarPublicidad() {
+   if(cpublicidad==1){
+    document.getElementById("embutidos").style.backgroundImage  = "url('./publicidad/helados2.png')";
+    cpublicidad++;
+  }else if(cpublicidad==2){
+    document.getElementById("embutidos").style.backgroundImage  = "url('./publicidad/affocato.png')";
+    cpublicidad= cpublicidad-1;
+  }
+  contadorPublicidad++;
+}
   
   function cargarData(){
   
@@ -70,7 +83,10 @@
   
   setInterval(function(){
    let text="";
-   
+   if(contadorPublicidad%2==0){
+    cargarPublicidad();
+    document.querySelector(".listaProductos").innerHTML=text;
+    }else{
    fetch('./lib/embutidos.json').then(function(response) {
      if(response.ok) {
        response.json().then(function(response) {
@@ -88,6 +104,7 @@
            contador=contador+4;
            }
        });
+       contadorPublicidad++;
      } else {
        console.log('Respuesta de red OK pero respuesta HTTP no OK');
      }
@@ -95,6 +112,7 @@
    .catch(function(error) {
      console.log('Hubo un problema con la petición Fetch:' + error.message);
    });
+  }
   }
    , 60000);
   
