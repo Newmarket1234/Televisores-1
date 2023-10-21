@@ -37,8 +37,11 @@
   {
     "descripcion": "WAFFLES CON CREMA",
     "precio": "0.80 Ref"
+  },
+  {
+    "descripcion": "AREPA GOURMET",
+    "precio": "1,75 Ref"
   }
-  
 ]
   
  }}
