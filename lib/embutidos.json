@@ -6,8 +6,8 @@
      "precio": "11.52 Ref"
    },
    {
-    "descripcion": "JAMON COCIDO DE PIERNA EL VALLE",
-    "precio": "9.38 Ref"
+    "descripcion": "JAMON DE PIERNA EL VALLE",
+    "precio": "7.43 Ref"
   },
   {
     "descripcion": "PECHUGA DE PAVO HERMO STD KG",
@@ -15,19 +15,19 @@
   },
   {
     "descripcion":"PECHUGA DE PAVO EL VALLE KG",
-    "precio":"6.83 Ref"
+    "precio":"7.25 Ref"
   },
   {
     "descripcion": "SALAMi EL VALLE KG",
-    "precio": "10.92 Ref"
+    "precio": "11.05 Ref"
   },
   {
     "descripcion": "PEPPERONI EL VALLE KG",
     "precio": "11.17 Ref"
   },
   {
-    "descripcion": "JAMON COCIDO FIESTA KG",
-    "precio": "11.65 Ref"
+    "descripcion": "JAMON AHUMADO FIESTA KG",
+    "precio": "9.39 Ref"
   },
   
   {
@@ -36,7 +36,7 @@
   },
   {
     "descripcion": "JAMON ESTANDAR IBERICO KG",
-    "precio": "6.77 Ref"
+    "precio": "8.43 Ref"
   },
   {
     "descripcion": "SALCHICHAS VIENA ALIMEX 800 GR",
@@ -44,7 +44,7 @@
   },
   {
     "descripcion": "JAMON ESPALDA HERMO KG",
-    "precio": "8.82 Ref"
+    "precio": "9.69 Ref"
   },
   {
     "descripcion": "TOCINETA REBANADA OSCAR MAYER KG",
@@ -52,71 +52,64 @@
   },
   {
     "descripcion":"SALCHICHA AHUMADA ORISUR KG",
-    "precio":"3.56 Ref"
+    "precio":"3.30 Ref"
   },
   {
     "descripcion":"JAMON ESPALDA ALIBAL KG",
-    "precio":"6.45 Ref"
+    "precio":"9.02 Ref"
   },
   {
     "descripcion":"JAMON PIERNA ALIBAL KG",
-    "precio":"7.40 Ref"
+    "precio":"6.58 Ref"
   },
   {
     "descripcion":"JAMON MILLENNIUM ESTANDAR KG",
-    "precio":"6.65 Ref"
+    "precio":"9.02 Ref"
   },
   {
     "descripcion":"PECHUGA DE PAVO MILLENNIUM KG",
-    "precio":"6.65 Ref"
+    "precio":"8.79 Ref"
   },
   {
     "descripcion":"JAMON AHUMADO SHOULDER JD KG",
-    "precio":"6.65 Ref"
+    "precio":"7.60 Ref"
   },
   {
-    "descripcion":"JAMON AHUMADO AREPERO JD KG",
-    "precio":"6.51 Ref"
+    "descripcion":"JAMON AREPERO JD KG",
+    "precio":"7.33 Ref"
   },
   {
     "descripcion":"PECHUGA DE PAVO MAGROS KG",
-    "precio":"8.49 Ref"
+    "precio":"8.29 Ref"
   },
   {
     "descripcion":"JAMON DE PIERNA EST MAGROS KG",
-    "precio":"8.21 Ref"
+    "precio":"8.70 Ref"
   },
   {
     "descripcion":"JAMON DE PIERNA MALLORCA KG",
-    "precio":"7.93 Ref"
+    "precio":"7.92 Ref"
   },
   {
     "descripcion":"JAMON DE PIERNA MALLORCA LIGHT KG",
-    "precio":"7.88 Ref"
+    "precio":"7.93 Ref"
   },
   {
     "descripcion":"JAMON ESPALDA MALLORCA KG",
-    "precio":"7.77 Ref"
+    "precio":"9.36 Ref"
   },
   {
     "descripcion":"PECHUGA DE PAVO MALLORCA LIGHT KG",
-    "precio":"8.73 Ref"
+    "precio":"8.18 Ref"
   },
   {
     "descripcion":"PECHUGA DE PAVO MALLORCA KG",
     "precio":"7.93 Ref"
   },
-  {
-    "descripcion":"PECHUGA DE PAVO MALLORCA KG",
-    "precio":"7.93 Ref"
-  },
+  
   {
     "descripcion":"TOCINETA AHUMADA KG",
-    "precio":"9,59 Ref"
-  },
-  {
-    "descripcion":"PECHUGA DE PAVO MALLORCA KG",
-    "precio":"7.93 Ref"
+    "precio":"12,67 Ref"
   }
 
   
