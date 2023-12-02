@@ -51,7 +51,16 @@
     cpublicidad++;
   }else if(cpublicidad==2){
     document.getElementById("embutidos").style.backgroundImage  = "url('./publicidad/affocato.png')";
-    cpublicidad= cpublicidad-1;
+    cpublicidad= cpublicidad++;
+  }else if(cpublicidad==3){
+    document.getElementById("embutidos").style.backgroundImage  = "url('./publicidad/HELADO_PORCION.png')";
+    cpublicidad= cpublicidad++;
+  }else if(cpublicidad==4){
+    document.getElementById("embutidos").style.backgroundImage  = "url('./publicidad/ALGODON_AZUCAR.png')";
+    cpublicidad= cpublicidad++;
+  }else if(cpublicidad==5){
+    document.getElementById("embutidos").style.backgroundImage  = "url('./publicidad/COTUFAS.png')";
+    cpublicidad= cpublicidad-4;
   }
   contadorPublicidad++;
 }
