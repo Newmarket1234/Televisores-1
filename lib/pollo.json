@@ -23,7 +23,7 @@
   },
   {
     "descripcion": "FILET DE POLLO KG",
-    "precio": "6.99 Ref"
+    "precio": "6.38 Ref"
   },
   {
     "descripcion": "CARAPACHO DE POLLO KG",
@@ -32,6 +32,10 @@
   {
     "descripcion": "ALAS DE POLLO KG",
     "precio": "3.80 Ref"
+  },
+  {
+    "descripcion": "GALLINA PREMIUM KG",
+    "precio": "2.38 Ref"
   }
  ]
  }}
