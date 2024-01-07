@@ -1,0 +1,72 @@
+{
+    "data": {
+      "Ofertas": [
+     {
+       "descripcion": "Cafe Fama de america 100g",
+       "precio": "0.81 Ref",
+       "imagen":"./ofertas/FAMAAMERICA100G.png",
+       "Und_Kg":"1 UND"
+     },
+     {
+        "descripcion": "Cafe Fama de America 250g",
+        "precio": "1.95 Ref",
+        "imagen":"./ofertas/FAMAAMERICA250G.png",
+        "Und_Kg":"1 UND"
+    },
+    {
+        "descripcion": "Cafe Fama de america 500g",
+        "precio": "3.74 Ref",
+        "imagen":"./ofertas/FAMAAMERICA500G.png",
+        "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "Cafe el Peñon 500g",
+      "precio": "3.90 Ref",
+      "imagen":"./ofertas/PENON500G.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "Cafe Madrid 100g",
+      "precio": "0.81 Ref",
+      "imagen":"./ofertas/MADRID100G.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "PAN DE SANDWICH GRANDE",
+      "precio": "1.90 Ref",
+      "imagen":"./fotos/sjamonqueso.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "PAN ARABE GRAN ORIENTE",
+      "precio": "1.32 Ref",
+      "imagen":"./fotos/sjamonqueso.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "CAFE PEQUEÑO",
+      "precio": "0.68 Ref",
+      "imagen":"./fotos/sjamonqueso.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "CAFE GRANDE",
+      "precio": "0.89 Ref",
+      "imagen":"./fotos/sjamonqueso.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "CAFE CON LECHE PEQUEÑO",
+      "precio": "0.79 Ref",
+      "imagen":"./fotos/sjamonqueso.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "CAFE CON LECHE GRANDE",
+      "precio": "1.29 Ref",
+      "imagen":"./fotos/sjamonqueso.png",
+       "Und_Kg":"1 UND"
+    }
+    
+   ]
+   }}

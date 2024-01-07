@@ -41,8 +41,7 @@ width: 100%;
 
 grid-template-columns: auto auto auto auto;
 
-
-grid-gap:10px;
+grid-gap:20px;
 padding: 10px;
 left: -40px;
 
@@ -53,6 +52,7 @@ left: -40px;
     align-items: center;
     background-color: white;
     border-radius: 30px;
+    
   }
 .imageGrid{
     flex-basis: 50%;
