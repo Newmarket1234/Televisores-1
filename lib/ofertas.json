@@ -32,39 +32,39 @@
        "Und_Kg":"1 UND"
     },
     {
-      "descripcion": "PAN DE SANDWICH GRANDE",
-      "precio": "1.90 Ref",
-      "imagen":"./fotos/sjamonqueso.png",
+      "descripcion": "Cereal OHO! 150/175G",
+      "precio": "1.04 Ref",
+      "imagen":"./ofertas/OHOI.png",
        "Und_Kg":"1 UND"
     },
     {
-      "descripcion": "PAN ARABE GRAN ORIENTE",
-      "precio": "1.32 Ref",
-      "imagen":"./fotos/sjamonqueso.png",
+      "descripcion": "Cafe Vencafe 100g",
+      "precio": "0.78 Ref",
+      "imagen":"./ofertas/VENCAFE100G.png",
        "Und_Kg":"1 UND"
     },
     {
-      "descripcion": "CAFE PEQUEÑO",
-      "precio": "0.68 Ref",
-      "imagen":"./fotos/sjamonqueso.png",
+      "descripcion": "MAIZORITOS AZUCARADOS 500 G ",
+      "precio": "4.28 Ref",
+      "imagen":"./ofertas/MAIZORITOSAZUCARADOS.png",
        "Und_Kg":"1 UND"
     },
     {
-      "descripcion": "CAFE GRANDE",
+      "descripcion": "Cafe el Peñon 250g",
       "precio": "0.89 Ref",
-      "imagen":"./fotos/sjamonqueso.png",
+      "imagen":"./ofertas/FAMAAMERICA250G.png",
        "Und_Kg":"1 UND"
     },
     {
       "descripcion": "CAFE CON LECHE PEQUEÑO",
       "precio": "0.79 Ref",
-      "imagen":"./fotos/sjamonqueso.png",
+      "imagen":"./images/hojaldre.png",
        "Und_Kg":"1 UND"
     },
     {
       "descripcion": "CAFE CON LECHE GRANDE",
       "precio": "1.29 Ref",
-      "imagen":"./fotos/sjamonqueso.png",
+      "imagen":"./images/hojaldre.png",
        "Und_Kg":"1 UND"
     }
     

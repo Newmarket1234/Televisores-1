@@ -15,7 +15,7 @@ box-sizing: border-box;
     flex-direction: column; 
 }
 .firstImage{
-    flex-basis: 50%;
+    flex-basis: 60%;
     background-image: url("/fotos/MARCO_OFERTAS.png");
     background-color: black;
     background-size: 100% 100%;
@@ -24,7 +24,7 @@ box-sizing: border-box;
     height: 100vh;
 }
 .secondImage{
-    flex-basis: 50%;
+    flex-basis: 40%;
     background-image: url("/fotos/MARCO_OFERTAS2.png");
     background-color: black;
     background-size: 100% 100%;
@@ -34,16 +34,21 @@ box-sizing: border-box;
     display: block;
     align-items: center;
 }
+.Container{
+    width: 90%;
+    height: 90%;
+} 
 .gridContainer{
 display: grid;
-height: 100%;
-width: 100%;
 
+width: 100%;
+height: 100%;
 grid-template-columns: auto auto auto auto;
 
-grid-gap:20px;
+
+grid-gap:10px;
 padding: 10px;
-left: -40px;
+
 
 } 
 .productGrid{
