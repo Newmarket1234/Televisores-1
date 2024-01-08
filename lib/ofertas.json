@@ -188,9 +188,9 @@
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Dove Gel Baby Sensitive 400 ml",
+        "descripcion": "Dove Baby Sensitive 400 ml",
         "precio": "3.89 Ref",
-        "imagen":"./ofertas/DOVEGELBABY.png",
+        "imagen":"./ofertas/DOVEJABON.png",
          "Und_Kg":"1 UND"
       },
       {
@@ -200,25 +200,25 @@
          "Und_Kg":"1 UND"
       },
     {
-        "descripcion": "Crema Dental Alident Niñas 100 g",
+        "descripcion": "CR Alident Niñas 100 g",
         "precio": "0.90 Ref",
         "imagen":"./ofertas/ALIDENTNINAS.png",
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Crema Dental Alident Niños 100 g",
+        "descripcion": "CR Alident Niños 100 g",
         "precio": "0.90 Ref",
         "imagen":"./ofertas/ALIDENTNINOS.png",
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Crema Dental Alident T.Accion 75 g",
+        "descripcion": "CR Alident T.Accion 75 g",
         "precio": "0.59 Ref",
         "imagen":"./ofertas/ALIDENTTACCION.png",
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Crema Dental Alident PRO.White3x 75 g",
+        "descripcion": "CR Alident PRO.White3x 75 g",
         "precio": "0.59 Ref",
         "imagen":"./ofertas/ALIDENTPROWHITE.png",
          "Und_Kg":"1 UND"
