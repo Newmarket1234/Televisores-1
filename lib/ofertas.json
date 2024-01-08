@@ -38,6 +38,12 @@
        "Und_Kg":"1 UND"
     },
     {
+        "descripcion": "Galleta Oreo Chocolate 108g",
+        "precio": "0.95 Ref",
+        "imagen":"./ofertas/OREO.png",
+         "Und_Kg":"1 UND"
+      },
+    {
       "descripcion": "Cafe Vencafe 100g",
       "precio": "0.78 Ref",
       "imagen":"./ofertas/VENCAFE100G.png",
@@ -55,6 +61,24 @@
       "imagen":"./ofertas/PENON500G.png",
        "Und_Kg":"1 UND"
     },
+    {
+        "descripcion": "Arroz Mary Superior 1 Kg",
+        "precio": "1.19 Ref",
+        "imagen":"./ofertas/ARROZMARY.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Mayonesa Sofia 175 g",
+        "precio": "1.52 Ref",
+        "imagen":"./ofertas/SOFIA150G.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Mayonesa Sofia 1.8 KG",
+        "precio": "8.36 Ref",
+        "imagen":"./ofertas/SOFIA18KG.png",
+         "Und_Kg":"1 UND"
+      },
     {
       "descripcion": "Azucar Amacorp 1 kg",
       "precio": "1.40 Ref",
@@ -86,33 +110,33 @@
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Azucar la Pampa 1 kg",
-        "precio": "1.38 Ref",
-        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+        "descripcion": "Pasta Primor Vermicelli ex esp 1 kg",
+        "precio": "1.48 Ref",
+        "imagen":"./ofertas/PRIMORVERMICELLI.png",
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Azucar la Pampa 1 kg",
-        "precio": "1.38 Ref",
-        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+        "descripcion": "Sphaghetti Royal 400 gr",
+        "precio": "0.50 Ref",
+        "imagen":"./ofertas/ROYAL500G.png",
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Azucar la Pampa 1 kg",
-        "precio": "1.38 Ref",
-        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+        "descripcion": "Pasta Ronco Vermicelli 1 kg",
+        "precio": "1.49 Ref",
+        "imagen":"./ofertas/RONCO1KG.png",
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Azucar la Pampa 1 kg",
-        "precio": "1.38 Ref",
-        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+        "descripcion": "Pasta Sindoni Vermicelli 500 g",
+        "precio": "0.83 Ref",
+        "imagen":"./ofertas/SINDONI500G.png",
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Azucar la Pampa 1 kg",
-        "precio": "1.38 Ref",
-        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+        "descripcion": "Vinagre Tiquire las Flores 1 l",
+        "precio": "1.73 Ref",
+        "imagen":"./ofertas/VINAGRETIQUIRE1L.png",
          "Und_Kg":"1 UND"
       },
       {
