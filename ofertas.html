@@ -32,7 +32,7 @@
        </section>
   </body>
 <script>
-    var contador=4;
+    var contador=0;
     var contadorVideo=1;
     var contadorPublicidad=1;
     var cpublicidad=1;
@@ -62,7 +62,6 @@
           
          for (const productos of data) {
             
-
             let text2="<div class='productGrid'><div class='imageGrid'><img src="+productos.imagen+" alt=''></div><div class='infoGrid'><div class='price'>"+productos.precio+"</div><div class='und_kg'>"+productos.Und_Kg+"</div><div class='description'>"+productos.descripcion+"</div></div></div>";
          text+=text2;
          }
@@ -253,9 +252,41 @@
    
        contadorPublicidad++;
   }
+  setInterval(function(){
+    fetch('./lib/ofertas.json').then(function(response) {
+        let text="";
+     if(response.ok) {
   
+       response.json().then(function(response) {
+        document.querySelector(".gridContainer").innerHTML="";
+         let data=response.data.Ofertas.slice(contador,contador+8);
+          
+         for (const productos of data) {
+            let text2="<div class='productGrid'><div class='imageGrid'><img src="+productos.imagen+" alt=''></div><div class='infoGrid'><div class='price'>"+productos.precio+"</div><div class='und_kg'>"+productos.Und_Kg+"</div><div class='description'>"+productos.descripcion+"</div></div></div>";
+         text+=text2;
+         }
+         document.querySelector(".gridContainer").innerHTML=text;
+         console.log(""+ response.data.Ofertas.length-8);
+         console.log(contador);
+         if(contador>=response.data.Ofertas.length-8){
+           contador=0;
+           }else{
+           contador=contador+8;
+           }
+       });
+       contadorPublicidad++;
+     } else {
+       console.log('Respuesta de red OK pero respuesta HTTP no OK');
+     }
+   })
+   .catch(function(error) {
+     console.log('Hubo un problema con la petición Fetch:' + error.message);
+   });
+      
+    
+  },5000);
   
-  
+  /*
   setInterval(function(){
     var dt = new Date();
     dt.getHours();
@@ -308,6 +339,6 @@
    }
   
    , 50000);
-  
+  */
      </script>
 </html>

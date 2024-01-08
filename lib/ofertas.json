@@ -79,6 +79,12 @@
         "imagen":"./ofertas/SOFIA18KG.png",
          "Und_Kg":"1 UND"
       },
+      {
+        "descripcion": "Ketchup Iberia 397 g",
+        "precio": "1.55 Ref",
+        "imagen":"./ofertas/KETCHUPIBERIA.png",
+         "Und_Kg":"1 UND"
+      },
     {
       "descripcion": "Azucar Amacorp 1 kg",
       "precio": "1.40 Ref",
@@ -140,11 +146,130 @@
          "Und_Kg":"1 UND"
       },
       {
-        "descripcion": "Azucar la Pampa 1 kg",
-        "precio": "1.38 Ref",
-        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+        "descripcion": "Don Toallin Multiusos 50 H",
+        "precio": "0.79 Ref",
+        "imagen":"./ofertas/TOALLIN.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Servilleta zzz Peq Paveca 250 H",
+        "precio": "1.29 Ref",
+        "imagen":"./ofertas/SERVILLETASZZ.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Crema Cero con Vitamina E 50 g",
+        "precio": "3.33 Ref",
+        "imagen":"./ofertas/CREMACERONARANJA.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Crema Cero con Aloe 50 g",
+        "precio": "3.33 Ref",
+        "imagen":"./ofertas/CREMACEROVERDE.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Talco Infantil Amy 200 g",
+        "precio": "1.89 Ref",
+        "imagen":"./ofertas/TALCOAMY.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Jabon CR Kids Amalfi 500 ml",
+        "precio": "2.73 Ref",
+        "imagen":"./ofertas/JABONCRKIDZ.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Jabon CR Sum Fruit 500 ml",
+        "precio": "2.73 Ref",
+        "imagen":"./ofertas/JABONCR.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Dove Gel Baby Sensitive 400 ml",
+        "precio": "3.89 Ref",
+        "imagen":"./ofertas/DOVEGELBABY.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Vaselina Cero 50 g",
+        "precio": "2.27 Ref",
+        "imagen":"./ofertas/VASELINA.png",
+         "Und_Kg":"1 UND"
+      },
+    {
+        "descripcion": "Crema Dental Alident Niñas 100 g",
+        "precio": "0.90 Ref",
+        "imagen":"./ofertas/ALIDENTNINAS.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Crema Dental Alident Niños 100 g",
+        "precio": "0.90 Ref",
+        "imagen":"./ofertas/ALIDENTNINOS.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Crema Dental Alident T.Accion 75 g",
+        "precio": "0.59 Ref",
+        "imagen":"./ofertas/ALIDENTTACCION.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Crema Dental Alident PRO.White3x 75 g",
+        "precio": "0.59 Ref",
+        "imagen":"./ofertas/ALIDENTPROWHITE.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Safeguard Aloe Vera 452 g 4 Pack",
+        "precio": "6.80 Ref",
+        "imagen":"./ofertas/SAFEGUARDALOEVERA.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Safeguard Beige 452 g 4 Pack",
+        "precio": "6.80 Ref",
+        "imagen":"./ofertas/SAFEGUARDBEIGE.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pampers Confort Sec XXG 16U",
+        "precio": "6.33 Ref",
+        "imagen":"./ofertas/PAMPERSCONFORTXXG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pampers Confort Sec G 20U",
+        "precio": "6.31 Ref",
+        "imagen":"./ofertas/PAMPERSCONFORTSECG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Papel Rosal Verde Plus 2R",
+        "precio": "0.57 Ref",
+        "imagen":"./ofertas/PAPELROSALVERDE.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Papel Rosal Amarillo 600H 4R",
+        "precio": "3.28 Ref",
+        "imagen":"./ofertas/PAPELROSALAMARILLO.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Jabon Panela Aliclean 150 g",
+        "precio": "0.58 Ref",
+        "imagen":"./ofertas/JABONALICLEAN.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Limpiador de Ceramica Fuller 1 L",
+        "precio": "5.22 Ref",
+        "imagen":"./ofertas/FULLERHOGAR.png",
          "Und_Kg":"1 UND"
       }
-    
    ]
    }}
