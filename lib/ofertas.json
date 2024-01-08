@@ -44,29 +44,35 @@
        "Und_Kg":"1 UND"
     },
     {
-      "descripcion": "MAIZORITOS AZUCARADOS 500 G ",
+      "descripcion": "Maizoritos Azucarados 500 G ",
       "precio": "4.28 Ref",
       "imagen":"./ofertas/MAIZORITOSAZUCARADOS.png",
        "Und_Kg":"1 UND"
     },
     {
       "descripcion": "Cafe el Peñon 250g",
-      "precio": "0.89 Ref",
-      "imagen":"./ofertas/FAMAAMERICA250G.png",
+      "precio": "1.95 Ref",
+      "imagen":"./ofertas/PENON500G.png",
        "Und_Kg":"1 UND"
     },
     {
-      "descripcion": "CAFE CON LECHE PEQUEÑO",
-      "precio": "0.79 Ref",
-      "imagen":"./images/hojaldre.png",
+      "descripcion": "Azucar Amacorp 1 kg",
+      "precio": "1.40 Ref",
+      "imagen":"./ofertas/AZUCARAMACORP1KG.png",
        "Und_Kg":"1 UND"
     },
     {
-      "descripcion": "CAFE CON LECHE GRANDE",
-      "precio": "1.29 Ref",
-      "imagen":"./images/hojaldre.png",
+      "descripcion": "Azucar Konfit 1 kg",
+      "precio": "1.52 Ref",
+      "imagen":"./ofertas/KONFIT1KG.png",
        "Und_Kg":"1 UND"
-    }
+    },
+    {
+        "descripcion": "Azucar Konfit 1 kg",
+        "precio": "1.52 Ref",
+        "imagen":"./ofertas/KONFIT1KG.png",
+         "Und_Kg":"1 UND"
+      }
     
    ]
    }}
