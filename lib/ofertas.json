@@ -68,9 +68,57 @@
        "Und_Kg":"1 UND"
     },
     {
-        "descripcion": "Azucar Konfit 1 kg",
-        "precio": "1.52 Ref",
-        "imagen":"./ofertas/KONFIT1KG.png",
+        "descripcion": "Azucar la Pampa 1 kg",
+        "precio": "1.38 Ref",
+        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Harina de maiz PAN blanca 1 kg",
+        "precio": "1.09 Ref",
+        "imagen":"./ofertas/PANBLANCA.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Harina de Arroz y Maiz PAN 1 kg",
+        "precio": "0.99 Ref",
+        "imagen":"./ofertas/PANARROZ.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Azucar la Pampa 1 kg",
+        "precio": "1.38 Ref",
+        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Azucar la Pampa 1 kg",
+        "precio": "1.38 Ref",
+        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Azucar la Pampa 1 kg",
+        "precio": "1.38 Ref",
+        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Azucar la Pampa 1 kg",
+        "precio": "1.38 Ref",
+        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Azucar la Pampa 1 kg",
+        "precio": "1.38 Ref",
+        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Azucar la Pampa 1 kg",
+        "precio": "1.38 Ref",
+        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
          "Und_Kg":"1 UND"
       }
     
