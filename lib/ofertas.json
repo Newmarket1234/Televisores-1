@@ -104,6 +104,12 @@
          "Und_Kg":"1 UND"
       },
       {
+        "descripcion": "Sardina Omega Tomate 170 g",
+        "precio": "0.55 Ref",
+        "imagen":"./ofertas/SARDINAOMEGA.png",
+         "Und_Kg":"1 UND"
+      },
+      {
         "descripcion": "Harina de maiz PAN blanca 1 kg",
         "precio": "1.09 Ref",
         "imagen":"./ofertas/PANBLANCA.png",
@@ -131,6 +137,12 @@
         "descripcion": "Pasta Ronco Vermicelli 1 kg",
         "precio": "1.49 Ref",
         "imagen":"./ofertas/RONCO1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pasta Sindoni Vermicelli Prem 1 KG",
+        "precio": "1.30 Ref",
+        "imagen":"./ofertas/SINDONI1KG.png",
          "Und_Kg":"1 UND"
       },
       {
