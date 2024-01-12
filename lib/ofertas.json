@@ -1,0 +1,287 @@
+{
+    "data": {
+      "Ofertas": [
+     {
+       "descripcion": "Cafe Fama de america 100g",
+       "precio": "0.81 Ref",
+       "imagen":"./ofertas/FAMAAMERICA100G.png",
+       "Und_Kg":"1 UND"
+     },
+     {
+        "descripcion": "Cafe Fama de America 250g",
+        "precio": "1.95 Ref",
+        "imagen":"./ofertas/FAMAAMERICA250G.png",
+        "Und_Kg":"1 UND"
+    },
+    {
+        "descripcion": "Cafe Fama de america 500g",
+        "precio": "3.74 Ref",
+        "imagen":"./ofertas/FAMAAMERICA500G.png",
+        "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "Cafe el Peñon 500g",
+      "precio": "3.90 Ref",
+      "imagen":"./ofertas/PENON500G.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "Cafe Madrid 100g",
+      "precio": "0.81 Ref",
+      "imagen":"./ofertas/MADRID100G.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "Cereal OHO! 150/175G",
+      "precio": "1.04 Ref",
+      "imagen":"./ofertas/OHOI.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+        "descripcion": "Galleta Oreo Chocolate 108g",
+        "precio": "0.95 Ref",
+        "imagen":"./ofertas/OREO.png",
+         "Und_Kg":"1 UND"
+      },
+    {
+      "descripcion": "Cafe Vencafe 100g",
+      "precio": "0.78 Ref",
+      "imagen":"./ofertas/VENCAFE100G.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "Maizoritos Azucarados 500 G ",
+      "precio": "4.28 Ref",
+      "imagen":"./ofertas/MAIZORITOSAZUCARADOS.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "Cafe el Peñon 250g",
+      "precio": "1.95 Ref",
+      "imagen":"./ofertas/PENON500G.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+        "descripcion": "Arroz Mary Superior 1 Kg",
+        "precio": "1.19 Ref",
+        "imagen":"./ofertas/ARROZMARY.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Mayonesa Sofia 175 g",
+        "precio": "1.52 Ref",
+        "imagen":"./ofertas/SOFIA150G.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Mayonesa Sofia 1.8 KG",
+        "precio": "8.36 Ref",
+        "imagen":"./ofertas/SOFIA18KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Ketchup Iberia 397 g",
+        "precio": "1.55 Ref",
+        "imagen":"./ofertas/KETCHUPIBERIA.png",
+         "Und_Kg":"1 UND"
+      },
+    {
+      "descripcion": "Azucar Amacorp 1 kg",
+      "precio": "1.40 Ref",
+      "imagen":"./ofertas/AZUCARAMACORP1KG.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+      "descripcion": "Azucar Konfit 1 kg",
+      "precio": "1.52 Ref",
+      "imagen":"./ofertas/KONFIT1KG.png",
+       "Und_Kg":"1 UND"
+    },
+    {
+        "descripcion": "Azucar la Pampa 1 kg",
+        "precio": "1.38 Ref",
+        "imagen":"./ofertas/AZUCARPAMPA1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Sardina Omega Tomate 170 g",
+        "precio": "0.55 Ref",
+        "imagen":"./ofertas/SARDINAOMEGA.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Harina de maiz PAN blanca 1 kg",
+        "precio": "1.09 Ref",
+        "imagen":"./ofertas/PANBLANCA.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Harina de Arroz y Maiz PAN 1 kg",
+        "precio": "0.99 Ref",
+        "imagen":"./ofertas/PANARROZ.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pasta Primor Vermicelli ex esp 1 kg",
+        "precio": "1.48 Ref",
+        "imagen":"./ofertas/PRIMORVERMICELLI.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Sphaghetti Royal 400 gr",
+        "precio": "0.50 Ref",
+        "imagen":"./ofertas/ROYAL500G.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pasta Ronco Vermicelli 1 kg",
+        "precio": "1.49 Ref",
+        "imagen":"./ofertas/RONCO1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pasta Sindoni Vermicelli Prem 1 KG",
+        "precio": "1.30 Ref",
+        "imagen":"./ofertas/SINDONI1KG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pasta Sindoni Vermicelli 500 g",
+        "precio": "0.83 Ref",
+        "imagen":"./ofertas/SINDONI500G.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Vinagre Tiquire las Flores 1 l",
+        "precio": "1.73 Ref",
+        "imagen":"./ofertas/VINAGRETIQUIRE1L.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Don Toallin Multiusos 50 H",
+        "precio": "0.79 Ref",
+        "imagen":"./ofertas/TOALLIN.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Servilleta zzz Peq Paveca 250 H",
+        "precio": "1.29 Ref",
+        "imagen":"./ofertas/SERVILLETASZZ.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Crema Cero con Vitamina E 50 g",
+        "precio": "3.33 Ref",
+        "imagen":"./ofertas/CREMACERONARANJA.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Crema Cero con Aloe 50 g",
+        "precio": "3.33 Ref",
+        "imagen":"./ofertas/CREMACEROVERDE.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Talco Infantil Amy 200 g",
+        "precio": "1.89 Ref",
+        "imagen":"./ofertas/TALCOAMY.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Jabon CR Kids Amalfi 500 ml",
+        "precio": "2.73 Ref",
+        "imagen":"./ofertas/JABONCRKIDZ.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Jabon CR Sum Fruit 500 ml",
+        "precio": "2.73 Ref",
+        "imagen":"./ofertas/JABONCR.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Dove Baby Sensitive 400 ml",
+        "precio": "3.89 Ref",
+        "imagen":"./ofertas/DOVEJABON.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Vaselina Cero 50 g",
+        "precio": "2.27 Ref",
+        "imagen":"./ofertas/VASELINA.png",
+         "Und_Kg":"1 UND"
+      },
+    {
+        "descripcion": "CR Alident Niñas 100 g",
+        "precio": "0.90 Ref",
+        "imagen":"./ofertas/ALIDENTNINAS.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "CR Alident Niños 100 g",
+        "precio": "0.90 Ref",
+        "imagen":"./ofertas/ALIDENTNINOS.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "CR Alident T.Accion 75 g",
+        "precio": "0.59 Ref",
+        "imagen":"./ofertas/ALIDENTTACCION.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "CR Alident PRO.White3x 75 g",
+        "precio": "0.59 Ref",
+        "imagen":"./ofertas/ALIDENTPROWHITE.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Safeguard Aloe Vera 452 g 4 Pack",
+        "precio": "6.80 Ref",
+        "imagen":"./ofertas/SAFEGUARDALOEVERA.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Safeguard Beige 452 g 4 Pack",
+        "precio": "6.80 Ref",
+        "imagen":"./ofertas/SAFEGUARDBEIGE.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pampers Confort Sec XXG 16U",
+        "precio": "6.33 Ref",
+        "imagen":"./ofertas/PAMPERSCONFORTXXG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Pampers Confort Sec G 20U",
+        "precio": "6.31 Ref",
+        "imagen":"./ofertas/PAMPERSCONFORTSECG.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Papel Rosal Verde Plus 2R",
+        "precio": "0.57 Ref",
+        "imagen":"./ofertas/PAPELROSALVERDE.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Papel Rosal Amarillo 600H 4R",
+        "precio": "3.28 Ref",
+        "imagen":"./ofertas/PAPELROSALAMARILLO.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Jabon Panela Aliclean 150 g",
+        "precio": "0.58 Ref",
+        "imagen":"./ofertas/JABONALICLEAN.png",
+         "Und_Kg":"1 UND"
+      },
+      {
+        "descripcion": "Limpiador de Ceramica Fuller 1 L",
+        "precio": "5.22 Ref",
+        "imagen":"./ofertas/FULLERHOGAR.png",
+         "Und_Kg":"1 UND"
+      }
+   ]
+   }}

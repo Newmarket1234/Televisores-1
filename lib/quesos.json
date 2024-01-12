@@ -3,7 +3,7 @@
     "quesos": [
    {
      "descripcion": "QUESO DURO",
-     "precio": "4.80 Ref"
+     "precio": "4.99 Ref"
    },
    {
     "descripcion": "QUESO GUAYANES",
@@ -15,7 +15,7 @@
   },
   {
     "descripcion": "QUESO AMARILLO LUCERO KG",
-    "precio": "12.48 Ref"
+    "precio": "12.60 Ref"
   },
   {
     "descripcion": "QUESO MUNSTER LUCERO UND",
@@ -23,7 +23,7 @@
   },
   {
     "descripcion": "QUESO PECORINO PACOMELA KG",
-    "precio": "30.28 Ref"
+    "precio": "27.95 Ref"
   },
   
   {
@@ -52,7 +52,7 @@
   },
   {
     "descripcion":"QUESO AMARILLO ZEDEÑO KG",
-    "precio":"13.09 Ref"
+    "precio":"13.75 Ref"
   },
   {
     "descripcion": "QUESO T/PAISA EL GUAMITO X KG",
@@ -75,8 +75,8 @@
     "precio": "18.00 Ref"
   },
   {
-    "descripcion": "QUESO PECORINO EMMANUEL KG",
-    "precio": "31.83 Ref"
+    "descripcion": "QUESO PECORINO EMMANUEL S/P KG",
+    "precio": "31.78 Ref"
   }
 
 

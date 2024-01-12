@@ -3,7 +3,7 @@
     "pollo": [
    {
      "descripcion": "POLLO ENTERO CONGELADO KG",
-     "precio": "2.65 Ref"
+     "precio": "2.60 Ref"
    },
    {
     "descripcion": "PECHUGA DE POLLO KG",
@@ -23,15 +23,19 @@
   },
   {
     "descripcion": "FILET DE POLLO KG",
-    "precio": "6.10 Ref"
+    "precio": "6.38 Ref"
   },
   {
     "descripcion": "CARAPACHO DE POLLO KG",
-    "precio": "0.89 Ref"
+    "precio": "0.99 Ref"
   },
   {
     "descripcion": "ALAS DE POLLO KG",
     "precio": "3.80 Ref"
+  },
+  {
+    "descripcion": "GALLINA PREMIUM KG",
+    "precio": "2.38 Ref"
   }
  ]
  }}

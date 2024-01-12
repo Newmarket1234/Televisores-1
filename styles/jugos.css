@@ -87,6 +87,7 @@ margin-top: 20px;
 display: grid;
  grid-template-columns: auto auto auto;
 justify-content: center;
+
 }
 .preciosGrid1, .preciosGrid2, .preciosGrid3 { 
 
