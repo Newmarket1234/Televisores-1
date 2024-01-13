@@ -1,7 +1,29 @@
+var contador=4;
+    var contadorPublicidad=1;
+    var cpublicidad=1;
+    var contadorVideo=1;
+    var contadorHojaldre=1;
+
+
+
 function cargarData(){
-  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/CHARCUTERIA IMAGEN.jpg')";
+
+if (cpublicidad==1) {
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA.png')";
+  cpublicidad++;
+}else if(cpublicidad==2){
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA 2.png')";
+  cpublicidad=cpublicidad-1;
 }
 
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA.png')";
+}
+setInterval(function(){
+  
+ cargarData();
+ 
+}
+  , 30000);
 
 /*
 
