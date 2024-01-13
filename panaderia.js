@@ -23,7 +23,7 @@ setInterval(function(){
  cargarData();
  
 }
-  , 30000);
+  , 5000);
 
 /*
 
