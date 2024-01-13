@@ -16,7 +16,7 @@ if (cpublicidad==1) {
   cpublicidad=cpublicidad-1;
 }
 
-  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA.png')";
+ 
 }
 setInterval(function(){
   
