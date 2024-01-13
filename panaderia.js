@@ -1,5 +1,5 @@
 function cargarData(){
-  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/panaderia_pasteleria.png')";
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/CHARCUTERIA IMAGEN.jpg')";
 }
 
 
