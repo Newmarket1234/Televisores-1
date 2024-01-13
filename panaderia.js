@@ -1,3 +1,10 @@
+function cargarData(){
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/panaderia_pasteleria.png')";
+}
+
+
+/*
+
 var contador=4;
 function reducirTamano(){
   for (const a of document.querySelectorAll(".linea")) {
@@ -66,3 +73,5 @@ setInterval(function(){
   });
 }
   , 60000);
+
+  */
