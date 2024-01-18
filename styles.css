@@ -83,12 +83,26 @@ main#carniceria{
   height: 100vh;
   background-size: 100% 100%;
 }
-main#charcuteria{
+main#quesos{
   background-image: url("./fotos/quesos.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
+main#jamones{
+  background-image: url("./fotos/quesos.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+main#frulever{
+  background-image: url("./fotos/quesos.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
 
 main#pollera{
   background-image: url("./publicidad/pollo.png");
@@ -195,7 +209,8 @@ h1 {
 }
 .departamento:hover{
   border-radius: 10px;
-  background-color: #0b9c71;
+  background-color: #f5ac10;
+  color: white;
 }
 #right-child{
   margin-left: 10.5em;

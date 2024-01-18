@@ -28,7 +28,29 @@
   </main>
 </body>
 <script>
-  var contador=4;
+ var contador=4;
+   var contadorPublicidad=1;
+    var cpublicidad=1;
+
+    function cargarData(){
+
+if (cpublicidad==1) {
+  document.getElementById("carniceria").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA.png')";
+  cpublicidad++;
+}else if(cpublicidad==2){
+  document.getElementById("carniceria").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA 2.png')";
+  cpublicidad=cpublicidad-1;
+}
+ 
+}
+setInterval(function(){
+  
+ cargarData();
+ 
+}
+  , 30000);
+
+  /*
 function reducirTamano(){
  for (const a of document.querySelectorAll(".linea")) {
    
@@ -99,6 +121,6 @@ setInterval(function(){
 
 }
  , 60000);
-
+*/
    </script>
 </html>

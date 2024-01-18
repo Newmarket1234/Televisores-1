@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body onload="cargarData()">
+     
+    <main id="jamones" > 
+      <div class="header" >
+        <h1 class="titulos" style="color:black">NEWMARKET</h1>
+        <div class="titulos"  style="color:white">jamones</div>
+      </div>
+     <section class="listas">
+      <div class="listaProductos">
+        
+
+      </div>
+
+
+     </section>
+      
+     
+      
+    </main>
+  </body>
+
+  <script>
+    var contador=4;
+    var contadorPublicidad=1;
+    var cpublicidad=1;
+    var contadorVideo=1;
+    var contadorHojaldre=1;
+
+
+
+function cargarData(){
+
+    //adaptar a las imagenes de charcuteria 
+
+if (cpublicidad==1) {
+  document.getElementById("jamones").style.backgroundImage  = "url('./publicidad/charcuteria pantalla jamon 1.png')";
+  cpublicidad++;
+}else if(cpublicidad==2){
+  document.getElementById("jamones").style.backgroundImage  = "url('./publicidad/charcuteria pantalla jamon 2.png')";
+  cpublicidad=cpublicidad-1;
+}
+ 
+}
+setInterval(function(){
+  
+ cargarData();
+ 
+}
+  , 30000);
+  </script>
