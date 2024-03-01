@@ -9,10 +9,10 @@ var contador=4;
 function cargarData(){
 
 if (cpublicidad==1) {
-  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA 3.png')";
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA.png')";
   cpublicidad++;
 }else if(cpublicidad==2){
-  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA 3.png')";
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA 2.png')";
   cpublicidad=cpublicidad-1;
 }
  
