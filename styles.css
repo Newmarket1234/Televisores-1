@@ -77,12 +77,19 @@ main#panaderia{
   
 }
 
-main#carniceria{
+main#carniceria1{
   background-image: url("./fotos/carniceria.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
+main#carniceria2{
+  background-image: url("./fotos/carniceria.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
 main#quesos{
   background-image: url("./fotos/quesos.png");
   background-repeat: no-repeat;
@@ -96,13 +103,25 @@ main#jamones{
   background-size: 100% 100%;
 }
 
-main#frulever{
+main#hortalizas1{
+  background-image: url("./fotos/quesos.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+main#hortalizas2{
   background-image: url("./fotos/quesos.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100% 100%;
 }
 
+main#frutas{
+  background-image: url("./fotos/quesos.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
 
 main#pollera{
   background-image: url("./publicidad/pollo.png");
