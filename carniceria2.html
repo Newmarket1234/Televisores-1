@@ -9,7 +9,7 @@
   </head>
   <body onload="cargarData()">
     
-  <main id="cerdopollo"> 
+  <main id="carniceria2"> 
     <div class="header" >
       <h1 class="titulos" style="color:white">GALERIA HYPERMARKET</h1>
       <div class="titulos"  style="color:white">Carniceria</div>
@@ -28,17 +28,17 @@
   </main>
 </body>
 <script>
-  var contador=4;
+ var contador=4;
    var contadorPublicidad=1;
     var cpublicidad=1;
 
     function cargarData(){
 
 if (cpublicidad==1) {
-  document.getElementById("cerdopollo").style.backgroundImage  = "url('./publicidad/carniceria pantalla 2.png')";
+  document.getElementById("carniceria2").style.backgroundImage  = "url('./publicidad/carniceria pantalla 2.png')";
   cpublicidad++;
 }else if(cpublicidad==2){
-  document.getElementById("cerdopollo").style.backgroundImage  = "url('./publicidad/carniceria pantalla 2.png')";
+  document.getElementById("carniceria2").style.backgroundImage  = "url('./publicidad/carniceria pantalla 2.png')";
   cpublicidad=cpublicidad-1;
 }
  
@@ -49,8 +49,8 @@ setInterval(function(){
  
 }
   , 30000);
-/*
 
+  /*
 function reducirTamano(){
  for (const a of document.querySelectorAll(".linea")) {
    
