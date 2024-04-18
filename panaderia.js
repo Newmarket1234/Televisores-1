@@ -13,7 +13,13 @@ if (cpublicidad==1) {
   cpublicidad++;
 }else if(cpublicidad==2){
   document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/PANTALLA DE PANADERIA Y PASTELERIA 3.png')";
-  cpublicidad=cpublicidad-1;
+  cpublicidad++;
+}else if(cpublicidad==3){
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/JUGOS NAT TELEVISOR.png')";
+  cpublicidad++;
+}else if(cpublicidad==4){
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/BARQUILLA TELEVISOR.png')";
+  cpublicidad=cpublicidad-3;
 }
  
 }
