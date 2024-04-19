@@ -21,7 +21,7 @@ if (cpublicidad==1) {
   document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/BARQUILLA TELEVISOR.png')";
   cpublicidad++;
 }else if(cpublicidad==5){
-  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/nuevomenu2.png)";
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/nuevomenu2.png')";
   cpublicidad=cpublicidad-4;
 }
  
