@@ -22,7 +22,10 @@ if (cpublicidad==1) {
   cpublicidad++;
 }else if(cpublicidad==5){
   document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/nuevo menu 2_.png')";
-  cpublicidad=cpublicidad-4;
+  cpublicidad++;
+}else if(cpublicidad==6){
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/combo panaderia 1.png')";
+  cpublicidad=cpublicidad-5;
 }
  
 }
