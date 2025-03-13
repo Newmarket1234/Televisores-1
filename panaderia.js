@@ -18,7 +18,7 @@ if (cpublicidad==1) {
   document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/JUGOS NAT TELEVISOR.png')";
   cpublicidad++;
 }else if(cpublicidad==4){
-  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/BARQUILLA TELEVISOR.png')";
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/combo frut cola para TV')";
   cpublicidad++;
 }else if(cpublicidad==5){
   document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/nuevo menu 2_.png')";
