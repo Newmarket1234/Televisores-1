@@ -25,7 +25,10 @@ if (cpublicidad==1) {
   cpublicidad++;
 }else if(cpublicidad==6){
   document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/combo panaderia 1.png')";
-  cpublicidad=cpublicidad-5;
+  cpublicidad++;
+}else if(cpublicidad==7){
+  document.getElementById("panaderia").style.backgroundImage  = "url('./publicidad/pollo.png')";
+  cpublicidad=cpublicidad-6;
 }
  
 }
