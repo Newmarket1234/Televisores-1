@@ -186,6 +186,25 @@ main#publicidades2{
   height: 100vh;
   background-size: 100% 100%;
 }
+main#telefono{
+  background-image: url("./publicidad/helados.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+main#tecnologia{
+  background-image: url("./publicidad/helados.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+main#tecnologia2{
+  background-image: url("./publicidad/helados.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
 
 .header{
   text-align: center;

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body onload="cargarData()">
+    
+  <main id="telefono"> 
+    <div class="header" >
+      <h1 class="titulos" style="color:white">GALERIA HYPERMARKET</h1>
+      <div class="titulos"  style="color:white">telefonos</div>
+    </div>
+   <section class="listas" >
+    <div class="listaProductos">
+      
+
+    </div>
+
+
+   </section>
+    
+   
+    
+  </main>
+</body>
+<script>
+
+var contador=4;
+    var contadorPublicidad=1;
+    var cpublicidad=1;
+    var contadorVideo=1;
+    var contadorHojaldre=1;
+
+
+
+function cargarData(){
+
+    //adaptar a las imagenes de frulever
+    //luego avisar para actualizar a la version automatizada
+
+if (cpublicidad==1) {
+  document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/CASHEA.jpg')";
+  cpublicidad++;
+}else if(cpublicidad==2){
+  document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/CASHEA.jpg')";
+  cpublicidad=cpublicidad-1;
+}
+}
+ 
+
+setInterval(function(){
+  
+ cargarData();
+ 
+}
+  , 5000);
+
+  
+
+   </script>
+
+</html>
