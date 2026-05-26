@@ -42,21 +42,48 @@ function cargarData(){
     //adaptar a las imagenes de frulever
     //luego avisar para actualizar a la version automatizada
 
-if (cpublicidad==1) {
-  document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/camon 50 pro.png')";
+    if (cpublicidad==1) {
+  document.getElementById("publicidades2").style.backgroundImage  = "url('./tecnologia/camon 50 pro.png')";
   cpublicidad++;
 }else if(cpublicidad==2){
   document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/honor 8xd.png')";
-  cpublicidad=cpublicidad-1;
+  cpublicidad++;
 }else if(cpublicidad==3){
   document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/HONOR X6C.png')";
-  cpublicidad=cpublicidad-2;
-  }else if(cpublicidad==4){
+  cpublicidad++;
+}else if(cpublicidad==4){
   document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/infinix note 60.png')";
-  cpublicidad=cpublicidad-3;
-
-} 
- } 
+  cpublicidad++;
+}else if(cpublicidad==5){
+  document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/motorola edge fusion.png')";
+  cpublicidad++;
+}else if(cpublicidad==6){
+  document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/motorola G17 power.png')";
+  cpublicidad++;
+}else if(cpublicidad==7){
+  document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/REDMI 15C.png')";
+  cpublicidad++;
+}else if(cpublicidad==8){
+  document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/redmi a7 pro.png')";
+  cpublicidad++; 
+}else if(cpublicidad==9){
+  document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/redmi note 15 pro.png')";
+  cpublicidad=cpublicidad-8; 
+}
+}
+//if (cpublicidad==1) {
+// document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/camon 50 pro.png')";
+//  cpublicidad++;
+//}else if(cpublicidad==2){
+ // document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/honor 8xd.png')";
+  //cpublicidad=cpublicidad-1;
+//}else if(cpublicidad==3){
+  //document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/HONOR X6C.png')";
+  //cpublicidad=cpublicidad-2;
+  //}else if(cpublicidad==4){
+ // document.getElementById("telefono").style.backgroundImage  = "url('./tecnologia/infinix note 60.png')";
+ // } 
+ //} 
  
 
 setInterval(function(){
